@@ -1,6 +1,6 @@
 // place files you want to import through the `$lib` alias in this folder.
 import nodePositions from '$lib/data/nodes.json';
-import nodeData from '$lib/data/nodes_desc.json';
+import nodeData from '$lib/data/nodes_desc_zh.json';
 
 interface NodeDataJSON {
 	[nodeID: string]: {
