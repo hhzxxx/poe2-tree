@@ -4,11 +4,13 @@
 <div class="flex flex-row gap-4 items-center w-full bg-[#1a1a1a] p-2 h-16">
 	<!-- Logo -->
 	<div>
-		<h1 class="text-3xl">PoE2 Skill Tree Preview</h1>
+		<h1 class="text-3xl">PoE2天赋树预览-汉化修改版</h1>
 	</div>
 	<!-- Middle Part -->
 	<nav class="hidden md:flex flex-row items-center gap-4 flex-1">
 		<!-- Something here? -->
+		<div>有内容错误麻烦群里@放课后</div>
+		<div>最新更新：支持中英切换，搜索</div>
 	</nav>
 	<!-- GitHub -->
 	<nav class="flex flex-row items-center gap-4">

@@ -8,7 +8,15 @@
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 	import LZString from 'lz-string';
 
-	let { nodes } = loadData();
+	let selectedLanguage = 'zh';
+
+	$: handleChangeLg(selectedLanguage);
+
+	let zh = loadData('zh');
+
+	let en = loadData('en');
+
+	let nodes = zh.nodes;
 
 	let containerEl: HTMLDivElement | null = null;
 	let imageEl: HTMLImageElement | null = null;
@@ -327,14 +335,28 @@
 
 		const search = text.toLowerCase();
 
-		searchResults = Object.entries(nodes)
-			.filter(
-				([_, values]) =>
-					values.id.includes(search) ||
-					values.name.toLowerCase().includes(search) ||
-					values.description.some((value) => value.toLowerCase().includes(search))
-			)
-			.map(([key, _]) => key);
+		searchResults = Object.keys(zh.nodes).filter(
+			(key) =>
+				zh.nodes[key].id.includes(search) ||
+				zh.nodes[key].name.toLowerCase().includes(search) ||
+				zh.nodes[key].description.some((value) => value.toLowerCase().includes(search)) ||
+				en.nodes[key].id.includes(search) ||
+				en.nodes[key].name.toLowerCase().includes(search) ||
+				en.nodes[key].description.some((value) => value.toLowerCase().includes(search))
+		);
+
+		// searchResults = Object.entries(zh.nodes)
+		// 	.filter(
+		// 		([_, values]) =>
+		// 			values.id.includes(search) ||
+		// 			values.name.toLowerCase().includes(search) ||
+		// 			values.description.some((value) => value.toLowerCase().includes(search))
+		// 	)
+		// 	.map(([key, _]) => key);
+	}
+	function handleChangeLg(lg: string) {
+		let a = loadData(lg);
+		nodes = a.nodes;
 	}
 
 	function clampPanOffsets() {
@@ -451,7 +473,21 @@
 				<!-- Toggleable -->
 				<div class="space-y-4">
 					<div>
-						<b class="block underline underline-offset-2">Ascendancy:</b>
+						<b class="block underline underline-offset-2">语言:</b>
+						<div class="flex flex-row flex-wrap text-black">
+							<select
+								class="w-full px-1 h-6"
+								name="ascendancies"
+								id="asc-select"
+								bind:value={selectedLanguage}
+							>
+								<option value="zh">中文</option>
+								<option value="en">英文</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<b class="block underline underline-offset-2">升华:</b>
 						<div class="flex flex-row flex-wrap text-black">
 							<select
 								class="w-full px-1 h-6"
@@ -459,59 +495,59 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="gemling">Mercenary - Gemling Legionnaire</option>
-								<option value="witchhunter">Mercenary - Witchhunter</option>
-								<option value="acolyte">Monk - Acolyte of Chayula</option>
-								<option value="invoker">Monk - Invoker</option>
-								<option value="chronomancer">Sorceress - Chronomancer</option>
-								<option value="stormweaver">Sorceress - Stormweaver</option>
-								<option value="deadeye">Ranger - Deadeye</option>
-								<option value="pathfinder">Ranger - Pathfinder</option>
-								<option value="titan">Warrior - Titan</option>
-								<option value="warbringer">Warrior - Warbringer</option>
-								<option value="bloodmage">Witch - Bloodmage</option>
-								<option value="infernalist">Witch - Infernalist</option>
+								<option value="gemling">佣兵 - 古灵使徒斗士</option>
+								<option value="witchhunter">佣兵 - 猎魔人</option>
+								<option value="acolyte">武僧 - 夏乌拉的信徒</option>
+								<option value="invoker">武僧 - 祈灵者</option>
+								<option value="chronomancer">女巫 - 时空编织者</option>
+								<option value="stormweaver">女巫 - 风暴编织者</option>
+								<option value="deadeye">游侠 - 锐眼</option>
+								<option value="pathfinder">游侠 - 追猎者</option>
+								<option value="titan">战士 - 泰坦</option>
+								<option value="warbringer">战士 - 战争使者</option>
+								<option value="bloodmage">女巫 - 血法师</option>
+								<option value="infernalist">女巫 - 地狱使徒</option>
 							</select>
 						</div>
 					</div>
 					<div>
-						<b class="block underline underline-offset-2">Highlight:</b>
+						<b class="block underline underline-offset-2">高亮:</b>
 						<div class="flex flex-row gap-2 flex-wrap">
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightKeystones} />
-								<span>Keystones</span>
+								<span>基石天赋</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightNotables} />
-								<span>Notables</span>
+								<span>显著天赋</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightSmalls} />
-								<span>Smalls</span>
+								<span>小天赋</span>
 							</label>
 						</div>
 					</div>
 					<div>
-						<b class="block underline underline-offset-2">Hide:</b>
+						<b class="block underline underline-offset-2">过滤:</b>
 						<div class="flex flex-row gap-2 flex-wrap">
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideUnidentified} />
-								<span>Unidentified</span>
+								<span>未鉴定</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideUnselected} />
-								<span>Unselected</span>
+								<span>未选择</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideSmall} />
-								<span>Smalls</span>
+								<span>小天赋</span>
 							</label>
 						</div>
 					</div>
 				</div>
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
-					<b class="block underline underline-offset-2">Search:</b>
+					<b class="block underline underline-offset-2">搜索:</b>
 					<!-- Search Input Container -->
 					<div class="relative inline-block">
 						<input
@@ -540,7 +576,7 @@
 							</button>
 						{/if}
 					</div>
-					<span>Found: {searchResults.length}</span>
+					<span>找到: {searchResults.length}</span>
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
@@ -556,15 +592,15 @@
 				</div>
 				<!-- Selected -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
-					<b class="underline underline-offset-2">Selected:</b>
+					<b class="underline underline-offset-2">已选择:</b>
 					<div class="flex flex-row justify-between">
 						<button
 							class="px-4 border rounded border-white border-solid"
 							onclick={clearSelectedNodes}
-							>Clear
+							>清除
 						</button>
 						<span
-							>Selected:
+							>已选择:
 							{selectedNodes.length} / {Object.entries(nodes).filter(
 								([_, n]) => n.description.length > 0
 							).length}

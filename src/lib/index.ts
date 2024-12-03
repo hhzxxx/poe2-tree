@@ -1,6 +1,7 @@
 // place files you want to import through the `$lib` alias in this folder.
 import nodePositions from '$lib/data/nodes.json';
 import nodeData from '$lib/data/nodes_desc_zh.json';
+import nodeDataEn from '$lib/data/nodes_desc.json';
 
 interface NodeDataJSON {
 	[nodeID: string]: {
@@ -32,7 +33,7 @@ export interface TreeData {
 }
 
 // massage our 2 data sources into a single map of nodes to simplify our usage.
-export function loadData(): TreeData {
+export function loadData(lg: 'zh' | 'en' = 'zh'): TreeData {
 	const flattenedNodePositions = [
 		...nodePositions.keystones,
 		...nodePositions.notables,
@@ -41,7 +42,8 @@ export function loadData(): TreeData {
 	];
 
 	const nodes = flattenedNodePositions.reduce((acc, node) => {
-		const { name, stats: description } = (nodeData as NodeDataJSON)[node.id];
+		const { name, stats: description } =
+			lg == 'zh' ? (nodeData as NodeDataJSON)[node.id] : (nodeDataEn as NodeDataJSON)[node.id];
 
 		return {
 			...acc,
