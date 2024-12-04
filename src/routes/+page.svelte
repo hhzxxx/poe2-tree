@@ -175,6 +175,10 @@
 			if (tooltipTopInContainer < 0) {
 				tooltipY += -tooltipTopInContainer + 20;
 			}
+
+			if (tooltipRect.x >= containerRect.x) {
+				tooltipX = 0;
+			}
 		}
 	}
 
@@ -394,7 +398,7 @@
 	// Add event listeners for global mouse events to handle panning
 	onMount(() => {
 		const checkScreenSize = () => {
-			if (window.innerWidth <= 768) {
+			if (window.innerWidth < 768) {
 				sidebarVisable = false;
 			} else {
 				sidebarVisable = true;
@@ -449,6 +453,39 @@
 			clearSearchTerm();
 		}
 	}
+
+	/**
+	 * Pans the view to center on the specified node.
+	 *
+	 * param {string} nodeId - The ID of the node to pan to.
+	 *
+	 * This function calculates the target position to center the view on the node
+	 * with the given `nodeId`. It adjusts the `panOffsetX` and `panOffsetY` values
+	 * based on the node's position and the current scale of the image. After calculating
+	 * the target position, it clamps the pan offsets to ensure the view remains within
+	 * the bounds of the container.
+	 *
+	 * Preconditions:
+	 * - `imageEl` and `containerEl` must be defined and reference valid DOM elements.
+	 * - `nodes` must contain the node with the specified `nodeId`.
+	 *
+	 * Postconditions:
+	 * - The view is panned to center on the specified node.
+	 * - The pan offsets are clamped to ensure the view remains within bounds.
+	 */
+	function panToNode(nodeId: string) {
+		if (!imageEl || !containerEl) return;
+		const rawNodePosition = nodes[nodeId].position;
+
+		const targetPosition = {
+			x: containerEl.clientWidth / 2 - rawNodePosition.x * imageEl.naturalWidth * scale,
+			y: containerEl.clientHeight / 2 - rawNodePosition.y * imageEl.naturalHeight * scale
+		};
+
+		panOffsetX = targetPosition.x;
+		panOffsetY = targetPosition.y;
+		clampPanOffsets();
+	}
 </script>
 
 <!-- page layout -->
@@ -460,7 +497,7 @@
 	>
 		<!-- Left Sidebar -->
 		<aside
-			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0`}
+			class={`h-full grid grid-cols-1  ${sidebarVisable ? 'bg-[#111]' : 'absolute'} grid-rows-[auto_auto_auto_1fr] gap-2 p-2  min-h-0 z-20`}
 		>
 			<!-- Toggle Button for Aside -->
 			<button
@@ -580,12 +617,18 @@
 					<ul class="block min-h-0 overflow-y-auto">
 						{#each searchResults as nodeId}
 							<li>
-								<strong>{nodes[nodeId].name}</strong>
-								<ul>
-									{#each nodes[nodeId].description as description}
-										<li class="text-sm text-[#7d7aad]">{description}</li>
-									{/each}
-								</ul>
+								<button
+									onclick={() => panToNode(nodeId)}
+									class="cursor-pointer hover:bg-slate-400/15 w-full transition-color duration-300"
+									title={`Pan view to node ${nodes[nodeId].name}`}
+								>
+									<strong>{nodes[nodeId].name}</strong>
+									<ul>
+										{#each nodes[nodeId].description as description}
+											<li class="text-sm text-[#7d7aad]">{description}</li>
+										{/each}
+									</ul>
+								</button>
 							</li>
 						{/each}
 					</ul>
@@ -623,6 +666,15 @@
 				</div>
 			{/if}
 		</aside>
+		{#if sidebarVisable}
+			<button
+				class="md:hidden fixed h-svh w-svw outline-none border-none z-10"
+				aria-label="collapse sidebar alt"
+				onclick={() => {
+					sidebarVisable = false;
+				}}
+			></button>
+		{/if}
 		<!-- Tree View -->
 		<div class="bg-black">
 			<!-- Skill Tree Container -->
@@ -643,7 +695,7 @@
 			  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
-			  cursor: {isPanning ? 'grabbing' : 'point'};
+			  cursor: {isPanning ? 'grabbing' : tooltipNode != null ? 'pointer' : 'default'};
 		  "
 				>
 					<img
@@ -702,7 +754,7 @@
 					<div
 						bind:this={tooltipEl}
 						class="absolute w-[400px] pointer-events-none"
-						style="left: {tooltipX}px; top: {tooltipY}px;"
+						style="left: {tooltipX}px; top: {tooltipY}px; max-width: calc(100%-40px)"
 					>
 						<TreeNodeTooltip node={tooltipNode} />
 					</div>
