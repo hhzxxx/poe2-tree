@@ -42,6 +42,12 @@ export function loadData(lg: 'zh' | 'en' = 'zh'): TreeData {
 	];
 
 	const nodes = flattenedNodePositions.reduce((acc, node) => {
+		if (!(nodeData as NodeDataJSON)[node.id]) {
+			console.warn(`No data found for node ${node.id}`);
+
+			return acc;
+		}
+
 		const { name, stats: description } =
 			lg == 'zh' ? (nodeData as NodeDataJSON)[node.id] : (nodeDataEn as NodeDataJSON)[node.id];
 
