@@ -177,7 +177,7 @@
 			}
 
 			if (tooltipRect.x >= containerRect.x) {
-				tooltipX = 0;
+				// tooltipX = 0;
 			}
 		}
 	}
