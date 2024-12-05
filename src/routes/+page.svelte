@@ -537,8 +537,8 @@
 								<option value="witchhunter">佣兵 - 猎魔人</option>
 								<option value="acolyte">武僧 - 夏乌拉的信徒</option>
 								<option value="invoker">武僧 - 祈灵者</option>
-								<option value="chronomancer">女巫 - 时空编织者</option>
-								<option value="stormweaver">女巫 - 风暴编织者</option>
+								<option value="chronomancer">法师 - 时空编织者</option>
+								<option value="stormweaver">法师 - 风暴编织者</option>
 								<option value="deadeye">游侠 - 锐眼</option>
 								<option value="pathfinder">游侠 - 追猎者</option>
 								<option value="titan">战士 - 泰坦</option>
