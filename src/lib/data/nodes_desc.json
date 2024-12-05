@@ -1975,8 +1975,8 @@
 	"N411": {
 		"name": "Death from Afar",
 		"stats": [
-			"Projectiles have 25% increased Critical Hit Chance against Enemies further then 6m",
-			"Projectiles deal 25% increased Damage with Hits against Enemies further then 6m"
+			"Projectiles have 25% increased Critical Hit Chance against Enemies further than 6m",
+			"Projectiles deal 25% increased Damage with Hits against Enemies further than 6m"
 		]
 	},
 	"N412": {
@@ -10537,6 +10537,34 @@
 		"name": "AS1",
 		"stats": ["Bloodmage small"]
 	},
+	"AS2": {
+		"name": "AS2",
+		"stats": ["Bloodmage small"]
+	},
+	"AS3": {
+		"name": "AS3",
+		"stats": ["Bloodmage small"]
+	},
+	"AS4": {
+		"name": "AS4",
+		"stats": ["Bloodmage small"]
+	},
+	"AS5": {
+		"name": "AS5",
+		"stats": ["Bloodmage small"]
+	},
+	"AS6": {
+		"name": "AS6",
+		"stats": ["Bloodmage small"]
+	},
+	"AS7": {
+		"name": "AS7",
+		"stats": ["Bloodmage small"]
+	},
+	"AS8": {
+		"name": "AS8",
+		"stats": ["Bloodmage small"]
+	},
 	"AN1": {
 		"name": "Sanguimancy",
 		"stats": ["Grants Skill: Life Remnants", "Skills gain a Base Life Cost equal to Base Mana Cost"]
@@ -10556,14 +10584,14 @@
 	"AN5": {
 		"name": "Grasping Wounds",
 		"stats": [
-			"25% of Life Lose from Damaging Hits is prevented, then that much Life is lost over 4 seconds instead"
+			"25% of Life Loss from Hits is prevented, then that much Life is lost over 4 seconds instead"
 		]
 	},
 	"AN6": {
 		"name": "Blood Barbs",
 		"stats": [
 			"Gain 10% of Damage as Extra Physical Damage",
-			"Elemental Damage can inflict Bleeding"
+			"Elemental Damage also Contributes to Bleeding Magnitude"
 		]
 	},
 	"AN7": {
@@ -10628,7 +10656,7 @@
 		"name": "Loyal Hellhound",
 		"stats": [
 			"Grants Skill: Summon Infernal Hound",
-			"20% of Damage from Hits is taken from your Hellhound´s Life before you"
+			"20% of Damage from Hits is taken from your Hellhound's Life before you"
 		]
 	},
 	"AN12": {
@@ -10640,7 +10668,7 @@
 		"stats": [
 			"Maximum Mana is replaced by Maximum Infernal Flame",
 			"Gain Infernal Flame instead of spending Mana for Skill costs",
-			"Take maximum Life and Energy Shield as Fire Damage when Infernal flame reaches maximum",
+			"Take maximum Life and Energy Shield as Fire Damage when Infernal Flame reaches maximum",
 			"Lose all Infernal Flame on reaching maximum Infernal Flame",
 			"10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
 		]
@@ -10648,14 +10676,13 @@
 	"AN14": {
 		"name": "Bringer of Flame",
 		"stats": [
-			"While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+			"While not on Low Infernal Flame, all Damage from you and Allies in your Presence contributes to Ignite Chance and Magnitude"
 		]
 	},
 	"AN15": {
 		"name": "Grinning Immolation",
 		"stats": [
-			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire",
-			"Damage per second",
+			"Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire Damage per second",
 			"30% more Critical Damage Bonus"
 		]
 	},
@@ -10681,7 +10708,7 @@
 	},
 	"AN20": {
 		"name": "Beidat's Hand",
-		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 4 Maximum Life"]
+		"stats": ["Reserves 25% of Life", "+1 Maximum Energy Shield per 8 Maximum Life"]
 	},
 	"AS21": {
 		"name": "AS21",
@@ -10705,6 +10732,41 @@
 		"name": "Shaper of Storms",
 		"stats": ["All Damage from Hits Contributes to Shock Chance"]
 	},
+	"AN24": {
+		"name": "Heart of the Storm",
+		"stats": ["40% of Elemental Damage taken Recouped as Energy Shield"]
+	},
+	"AN25": {
+		"name": "Scouring Winds",
+		"stats": ["Exposure you inflict lowers the affected Resistance by an additional 20%"]
+	},
+	"AN26": {
+		"name": "Heavy Snows",
+		"stats": [
+			"Targets can be affected by two of your Chills at the same time",
+			"Your chills reduce Action Speed by up to a maximum of 35%",
+			"25% less Magnitude of Chill you inflict"
+		]
+	},
+	"AN27": {
+		"name": "Shaper of Winter",
+		"stats": ["All Damage from Hits Contributes to chill Magnitude"]
+	},
+	"AN28": {
+		"name": "Rain Dancer",
+		"stats": ["Elemental Storm has 150% more Cooldown Recovery Rate"]
+	},
+	"AN29": {
+		"name": "Constant Gale",
+		"stats": [
+			"You have Arcane Surge",
+			"Arcane Surge grants 10% more Cast Speed and 20% more Mana Regeneration Rate."
+		]
+	},
+	"AN30": {
+		"name": "Force of Will",
+		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
+	},
 	"AS31": {
 		"name": "AS31",
 		"stats": ["Chronomancer small"]
@@ -10720,6 +10782,26 @@
 	"AN33": {
 		"name": "Unbound Encore",
 		"stats": ["Grants Skill: Time Snap"]
+	},
+	"AN34": {
+		"name": "Now and Again",
+		"stats": ["Skills have 33% chance to not consume a Cooldown when used"]
+	},
+	"AN35": {
+		"name": "Apex of the Moment",
+		"stats": ["Enemies in your Presence are Slowed by 20%"]
+	},
+	"AN36": {
+		"name": "The Rapid River",
+		"stats": ["Recoup Effects instead occur over 4 seconds"]
+	},
+	"AN37": {
+		"name": "Circular Heartbeat",
+		"stats": ["30% of Damage taken Recouped as Life"]
+	},
+	"AN38": {
+		"name": "Quicksand Hourglass",
+		"stats": ["Every 12 seconds, gain 50% more Cast Speed for 4 seconds"]
 	},
 	"AS41": {
 		"name": "AS41",
@@ -10751,7 +10833,7 @@
 		"name": "...and Scatter Them to the Winds",
 		"stats": [
 			"Grants Skill: Elemental Expression",
-			"Trigger Elemental Expression on Meele Critical Hit"
+			"Trigger Elemental Expression on Melee Critical Hit"
 		]
 	},
 	"AS51": {
@@ -10779,12 +10861,12 @@
 		"stats": ["Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"]
 	},
 	"AS61": {
-		"name": "AS61",
-		"stats": ["Titan small"]
+		"name": "Strength",
+		"stats": ["4% increased Strength"]
 	},
 	"AN61": {
 		"name": "Colossal Capacity",
-		"stats": ["Equip a Chest which has 20 Inventory Slots"]
+		"stats": ["Carry a Chest which adds 20 Inventory Slots"]
 	},
 	"AN62": {
 		"name": "Mysterious Lineage",
@@ -10792,19 +10874,31 @@
 	},
 	"AN63": {
 		"name": "Ancestral Empowerment",
-		"stats": ["Every second Slam Skill you use yourself is Ancestrally Boosted"]
+		"stats": [
+			"Every second Slam Skill you use yourself is Ancestrally Boosted",
+			"An Ancestrally Boosted Slam has 20% more damage and area of effect."
+		]
 	},
 	"AN64": {
 		"name": "Earthbreaker",
-		"stats": ["20% chance for Slam Skills you use yourself to cause Aftershocks"]
+		"stats": [
+			"20% chance for Slam Skills you use yourself to cause Aftershocks",
+			"Aftershocks are bursts of area damage that occur after the initial impact of the skill causing them. If not otherwise specified, the Aftershock will deal the same damage as the initial impact, in the same area."
+		]
 	},
 	"AN65": {
 		"name": "Crushing Impacts",
-		"stats": ["Your Hits are Crushing Blows"]
+		"stats": [
+			"Your Hits are Crushing Blows",
+			"Crushing Blows cause a Heavy Stun on enemies that are Primed for Stun."
+		]
 	},
 	"AN66": {
-		"name": "Surprising strength",
-		"stats": ["40% more Damage against Heavy Stunned Enemies"]
+		"name": "Surprising Strength",
+		"stats": [
+			"40% more Damage against Heavy Stunned Enemies",
+			"Heavy Stunned enemies cannot act and count as Immobilised. Physical and Melee Damage each cause 50% more Heavy Stun buildup, which is multiplicative with each other."
+		]
 	},
 	"AS71": {
 		"name": "AS71",
@@ -10822,13 +10916,13 @@
 		"stats": ["Grants Skill: Encased in Jade", "Gain a stack of Jade every second"]
 	},
 	"AN73": {
-		"name": "Warcallers´s Bellow",
+		"name": "Warcaller’s Bellow",
 		"stats": [
-			"Corpses in your Presence Explode when you Warcry dealing 25% of their Life as Physical Damage"
+			"Corpses in your Presence Explode when you Warcry, dealing 25% of their Life as Physical Damage"
 		]
 	},
 	"AN74": {
-		"name": "Greatwolf´s Howl",
+		"name": "Greatwolf’s Howl",
 		"stats": ["Ignore Warcry Cooldowns"]
 	},
 	"AS81": {
@@ -10840,39 +10934,43 @@
 		"stats": ["Skills fire an additional Projectile"]
 	},
 	"AN82": {
-		"name": "Eagle eyes",
+		"name": "Eagle Eyes",
 		"stats": ["You have no Accuracy Penalty at Distance"]
 	},
 	"AN83": {
 		"name": "Gathering Winds",
-		"stats": ["Gain Tailwind on Skill use", "Lose all Tailwind when Hit"]
+		"stats": [
+			"Gain Tailwind on Skill use",
+			"Lose all Tailwind when Hit",
+			"Tailwind is a stacking Buff which grants 1% increased Movement Speed, 3% increased Skill Speed, and 15% increased Evasion Rating per stack for 10 seconds, refreshing whenever you gain another stack. Maximum 10 stacks."
+		]
 	},
 	"AN84": {
 		"name": "Projectile Proximity Specialisation",
 		"stats": [
 			"(Choice node)",
-			"Far Shot: Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets.",
-			"Point Blank: Projectile Hits deal up tp 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther."
+			"Far Shot: Projectile deal 0% more Hits Damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 meters",
+			"Point Blank: Projectile deal 20% more Hits Damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 meters"
 		]
 	},
 	"AN85": {
 		"name": "Wind Ward",
-		"stats": ["3% less damage taken per Tailwind."]
+		"stats": ["3% less Damage taken per Tailwind"]
 	},
 	"AN86": {
 		"name": "Called Shots",
-		"stats": ["You can apply an additional Mark."]
+		"stats": ["You can apply an additional Mark"]
 	},
 	"AN87": {
 		"name": "Avidity",
 		"stats": [
-			"30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges."
+			"30% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges"
 		]
 	},
 	"AN88": {
 		"name": "Thrilling Chase",
 		"stats": [
-			"Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled."
+			"Benefits from consuming Frenzy Charges for your Skills have 50% chance to be doubled"
 		]
 	},
 	"AS91": {
@@ -10904,12 +11002,12 @@
 	"AN96": {
 		"name": "Brew Concoction",
 		"stats": [
-			"Grants the following skills:",
-			"Bleeding Concoction",
-			"Explosive Concoction",
-			"Shattering Concoction",
-			"Fulminating Concoction",
-			"Poisonous Concoction"
+			"(Choice node) Consume charges from your Mana Flask to throw a bottle that explodes, dealing unarmed attack damage in an area. The effect depends on the chosen skill:",
+			"Poisonous Concoction: Chaos attack damage with increased Poison effect.",
+			"Fulminating Concoction: Lightning attack damage and applies Lightning Exposure.",
+			"Shattering Concoction: Cold attack damage and applies Cold Exposure.",
+			"Explosive Concoction: Fire attack damage and applies Fire Exposure.",
+			"Bleeding Concoction: Physical attack damage with increased Bleeding effect."
 		]
 	},
 	"AN97": {
@@ -10919,7 +11017,8 @@
 	"AN98": {
 		"name": "Enduring Elixirs",
 		"stats": [
-			"Life Flask Effects are not removed when Unreserved Life is Filled. Life Flask Effects do not queue."
+			"Life Flask Effects are not removed when Unreserved Life is Filled",
+			"Life Flask Effects do not Queue"
 		]
 	},
 	"AS101": {
@@ -10932,12 +11031,15 @@
 	},
 	"AN102": {
 		"name": "Pitless Killer",
-		"stats": ["Culling Strike"]
+		"stats": [
+			"Culling Strike",
+			"Culling Strikes kill Normal enemies if their Life is at 30% or below. Magic enemies are instead killed at 20%, Rare at 10% and Unique at 5%. These thresholds are checked before the damage of the Hit is applied."
+		]
 	},
 	"AN103": {
 		"name": "Decimating Strike",
 		"stats": [
-			"Hits against Full Life Enemies removes between 5% and 30% of Life, before the damage of the Hit is applied"
+			"Hits against Full Life Enemies remove between 5% and 30% of Life, before the damage of the Hit is applied"
 		]
 	},
 	"AN104": {
@@ -10945,7 +11047,8 @@
 		"stats": [
 			"Enemies have Maximum Concentration equal to 40% of their Maximum Life",
 			"Break enemy Concentration on Hit equal to 100% of Damage Dealt",
-			"Enemies regain 10% of Concentration every second if they haven't lost Concentration for the past 5 seconds"
+			"Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds",
+			"Enemies have less Cooldown Recovery Rate the lower their Concentration, scaling down to 50% less Cooldown Recovery Rate when Concentration is 0%."
 		]
 	},
 	"AN105": {
@@ -10967,13 +11070,17 @@
 			"Chance is doubled against Undead and Demons"
 		]
 	},
+	"AN110": {
+		"name": "Gem Studded",
+		"stats": ["You can use two copies of the same Support Gem in different Skills"]
+	},
 	"AS111": {
 		"name": "AS111",
 		"stats": ["Gemling small"]
 	},
 	"AN111": {
 		"name": "Crystalline Potential",
-		"stats": ["+12% to Quality of all Skill Gems"]
+		"stats": ["+10% to Quality of all Skills"]
 	},
 	"AN112": {
 		"name": "Implanted Gems",
@@ -10997,11 +11104,11 @@
 	},
 	"AN116": {
 		"name": "Enhanced Effectiveness",
-		"stats": ["Inherent bonuses from Intelligence Strength ans Dexterity are doubled"]
+		"stats": ["Inherent bonuses from Intelligence, Strength and Dexterity are doubled"]
 	},
 	"AN117": {
 		"name": "Advanced Thaumaturgy",
-		"stats": ["30% less Cost of skills", "Skill Gems have 30% more Attribute Requirements"]
+		"stats": ["30% less Cost of Skills", "Skill Gems have 30% more Attribute Requirements"]
 	},
 	"AN118": {
 		"name": "Inner Silence",
@@ -11014,9 +11121,9 @@
 	"AN120": {
 		"name": "Embrace the Darkness",
 		"stats": [
-			"Removes all Spirit",
+			"Remove all Spirit",
 			"Base Maximum Darkness is 100",
-			"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield",
+			"For each Life or Energy Shield lost to Damage, reserve 1 Darkness instead if possible",
 			"Darkness Reservation lasts for 10 seconds",
 			"+5 to Maximum Darkness per Level"
 		]
@@ -11025,7 +11132,7 @@
 		"name": "Reality Rending",
 		"stats": [
 			"23% chance to Gain 25% of Damage with Hits as Extra Chaos Damage",
-			"13% chance to gain 50% of Damage with Hits as Extra Chaos Damage",
+			"13% chance to Gain 50% of Damage with Hits as Extra Chaos Damage",
 			"7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
 		]
 	},
@@ -11047,59 +11154,7 @@
 	},
 	"AN125": {
 		"name": "Sunder my Enemies...",
-		"stats": ["Critical Hits ignore non negative Enemy Monster Elemental Resistances"]
-	},
-	"AN126": {
-		"name": "Now and Again",
-		"stats": ["Skills have 33% chance to not consume a Cooldown when used"]
-	},
-	"AN127": {
-		"name": "Apex of the Moment",
-		"stats": ["Enemies in your PResence are Slowed by 20%"]
-	},
-	"AN128": {
-		"name": "The Rapid River",
-		"stats": ["Recoup Effects instead occur over 4 seconds"]
-	},
-	"AN129": {
-		"name": "Circular Heartbeat",
-		"stats": ["30% of Damage taken Recouped as Life"]
-	},
-	"AN130": {
-		"name": "Quicksand Hourglass",
-		"stats": ["Every 12 seconds, gain 50% more Cast Speed for 4 seconds"]
-	},
-	"AN131": {
-		"name": "Heart of the Storm",
-		"stats": ["40% of Elemental Damage taken Recouped as Energy Shield"]
-	},
-	"AN132": {
-		"name": "Scouring Winds",
-		"stats": ["Exposure you inflict lowers the affected Resistance by an additional 20%"]
-	},
-	"AN133": {
-		"name": "Heavy Snows",
-		"stats": [
-			"Targets can be affected by two of your Chills at the same time",
-			"Your chills reduce Action Speed by up to a maximum of 35%",
-			"25% less Magnitude of Chill you inflict"
-		]
-	},
-	"AN134": {
-		"name": "Shaper of Winter",
-		"stats": ["All Damage from Hits Contributes to chill Magnitude"]
-	},
-	"AN135": {
-		"name": "Rain Dancer",
-		"stats": ["Elemental Storm has 150% more Cooldown Recovery Rate"]
-	},
-	"AN136": {
-		"name": "Constant Gale",
-		"stats": ["You have Arcane Surge"]
-	},
-	"AN137": {
-		"name": "Force of Will",
-		"stats": ["1% increased Effect of Arcane Surge on you per 15 maximum Mana"]
+		"stats": ["Critical Hits ignore non-negative Enemy Monster Elemental Resistances"]
 	},
 	"AN138": {
 		"name": "Stone Skin",
@@ -11122,11 +11177,15 @@
 		"stats": ["20% of Damage from Hits is taken from your nearest Totem's Life before you"]
 	},
 	"AN143": {
-		"name": "Renly's Charm",
-		"stats": ["Gain 40% Base Chance to Block from Equipped Shield instead of Shield's value"]
+		"name": "Renly’s Training",
+		"stats": ["Gain 40% Base Chance to Block from Equipped Shield instead of the Shield's value"]
 	},
 	"AN144": {
 		"name": "Turtle Charm",
 		"stats": ["35% less Block chance", "Can Block Damage from all Hits while Shield is not Raised"]
+	},
+	"AN145": {
+		"name": "Inner Silence",
+		"stats": ["50% reduced Darkness Reservation Duration"]
 	}
 }
