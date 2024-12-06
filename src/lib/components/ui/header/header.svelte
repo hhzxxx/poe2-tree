@@ -10,7 +10,7 @@
 	<nav class="hidden md:flex flex-row items-center gap-4 flex-1">
 		<!-- Something here? -->
 		<div>有内容错误麻烦群里@放课后</div>
-		<div>12.5 9点更新：合并新增升华描述</div>
+		<div>12.6 10点更新：合并新增升华描述</div>
 	</nav>
 	<!-- GitHub -->
 	<nav class="flex flex-row items-center gap-4">
