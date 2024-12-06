@@ -22,6 +22,7 @@ export interface TreeNodeData {
 	name: string;
 	class: string;
 	description: string[];
+	extraInfo: string[];
 }
 
 export interface NodeMap {
@@ -48,8 +49,11 @@ export function loadData(lg: 'zh' | 'en' = 'zh'): TreeData {
 			return acc;
 		}
 
-		const { name, stats: description } =
-			lg == 'zh' ? (nodeData as NodeDataJSON)[node.id] : (nodeDataEn as NodeDataJSON)[node.id];
+		const {
+			name,
+			stats: description,
+			info
+		} = lg == 'zh' ? (nodeData as NodeDataJSON)[node.id] : (nodeDataEn as NodeDataJSON)[node.id];
 
 		return {
 			...acc,
@@ -62,7 +66,8 @@ export function loadData(lg: 'zh' | 'en' = 'zh'): TreeData {
 				position: {
 					x: node.x,
 					y: node.y
-				}
+				},
+				extraInfo: info
 			}
 		};
 	}, {}) as NodeMap;

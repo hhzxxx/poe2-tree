@@ -8,6 +8,7 @@
 	import TreeNode from '$lib/components/ui/tree-node/tree-node.svelte';
 	import NodeListItem from '$lib/components/ui/node-list-item/node-list-item.svelte';
 	import LZString from 'lz-string';
+	import { SaveAndLoadModal } from '$lib/components/save-and-load';
 
 	let selectedLanguage = 'zh';
 
@@ -63,6 +64,9 @@
 	let hideUnidentified = false;
 	let hideUnselected = false;
 	let hideSmall = false;
+
+	// State for Regex Search toggle
+	let isRegexSearch = false;
 
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
@@ -177,8 +181,8 @@
 				tooltipY += -tooltipTopInContainer + 20;
 			}
 
-			if (tooltipRect.x >= containerRect.x) {
-				// tooltipX = 0;
+			if (tooltipRect.width >= containerRect.width) {
+				tooltipX = 0;
 			}
 		}
 	}
@@ -353,15 +357,41 @@
 
 		const search = text.toLowerCase();
 
-		searchResults = Object.keys(zh.nodes).filter(
-			(key) =>
-				zh.nodes[key].id.includes(search) ||
-				zh.nodes[key].name.toLowerCase().includes(search) ||
-				zh.nodes[key].description.some((value) => value.toLowerCase().includes(search)) ||
-				en.nodes[key].id.includes(search) ||
-				en.nodes[key].name.toLowerCase().includes(search) ||
-				en.nodes[key].description.some((value) => value.toLowerCase().includes(search))
-		);
+		if (isRegexSearch) {
+			try {
+				const regex = new RegExp(search);
+				searchResults = Object.keys(nodes).filter(
+					(key) =>
+						regex.test(zh.nodes[key].id) ||
+						regex.test(zh.nodes[key].name.toLowerCase()) ||
+						zh.nodes[key].description.some((value) => regex.test(value.toLowerCase())) ||
+						regex.test(en.nodes[key].id) ||
+						regex.test(en.nodes[key].name.toLowerCase()) ||
+						en.nodes[key].description.some((value) => regex.test(value.toLowerCase()))
+				);
+				// searchResults = Object.entries(nodes)
+				// 	.filter(
+				// 		([_, values]) =>
+				// 			regex.test(values.id) ||
+				// 			regex.test(values.name.toLowerCase()) ||
+				// 			values.description.some((value) => regex.test(value.toLowerCase()))
+				// 	)
+				// 	.map(([key, _]) => key);
+			} catch (error) {
+				console.error('Invalid regular expression:', error);
+				searchResults = [];
+			}
+		} else {
+			searchResults = Object.keys(nodes).filter(
+				(key) =>
+					zh.nodes[key].id.includes(search) ||
+					zh.nodes[key].name.toLowerCase().includes(search) ||
+					zh.nodes[key].description.some((value) => value.toLowerCase().includes(search)) ||
+					en.nodes[key].id.includes(search) ||
+					en.nodes[key].name.toLowerCase().includes(search) ||
+					en.nodes[key].description.some((value) => value.toLowerCase().includes(search))
+			);
+		}
 
 		// searchResults = Object.entries(zh.nodes)
 		// 	.filter(
@@ -598,7 +628,12 @@
 				</div>
 				<!-- Search -->
 				<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
-					<b class="block underline underline-offset-2">搜索:</b>
+					<b class="block underline underline-offset-2">Search:</b>
+					<!-- Regex Search Checkbox -->
+					<label class="whitespace-nowrap">
+						<input type="checkbox" bind:checked={isRegexSearch} />
+						<span>Regex Mode:</span>
+					</label>
 					<!-- Search Input Container -->
 					<div class="relative inline-block">
 						<input
@@ -674,7 +709,7 @@
 			></button>
 		{/if}
 		<!-- Tree View -->
-		<div class="bg-black">
+		<div class="bg-[#070b0f]">
 			<!-- Skill Tree Container -->
 			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 			<div
@@ -757,13 +792,36 @@
 					<!-- Tooltip wrapper for absolute position -->
 					<div
 						bind:this={tooltipEl}
-						class="absolute w-[400px] pointer-events-none"
-						style="left: {tooltipX}px; top: {tooltipY}px; max-width: calc(100%-40px)"
+						class="absolute pointer-events-none flex flex-wrap gap-4"
+						style="left: {tooltipX}px; top: {tooltipY}px; max-width: 100svw"
 					>
 						<TreeNodeTooltip node={tooltipNode} />
+						{#if tooltipNode.extraInfo && tooltipNode.extraInfo.length > 0}
+							<div
+								class="bg-[#0f0f0f] w-[400px] border-2 border-[#595343] p-[10px] text-[#c3b58a] grid gap-2"
+								style="font-family: 'Fontin', sans-serif"
+							>
+								{#each tooltipNode.extraInfo as infoLine}
+									{#if infoLine.startsWith('title:')}
+										<h2
+											class="text-center text-xl text-[#f0e4c2]"
+											style="font-family: 'Fontin SmallCaps', sans-serif"
+										>
+											{infoLine.split('title:')[1]}
+										</h2>
+									{:else}
+										<p>
+											{infoLine}
+										</p>
+									{/if}
+								{/each}
+							</div>
+						{/if}
 					</div>
 				{/if}
 			</div>
 		</div>
 	</div>
+
+	<SaveAndLoadModal />
 </div>
