@@ -1,0 +1,6067 @@
+[
+	{
+		"id": "accessory",
+		"label": "飾品",
+		"entries": [
+			{
+				"type": "Crimson Amulet",
+				"text": "赤紅項鍊"
+			},
+			{
+				"type": "Gold Amulet",
+				"text": "帝金護身符"
+			},
+			{
+				"type": "Azure Amulet",
+				"text": "蒼藍項鍊"
+			},
+			{
+				"type": "Amber Amulet",
+				"text": "琥珀護身符"
+			},
+			{
+				"type": "Jade Amulet",
+				"text": "翠玉護身符"
+			},
+			{
+				"type": "Lapis Amulet",
+				"text": "海玉護身符"
+			},
+			{
+				"type": "Lunar Amulet",
+				"text": "月神項鍊"
+			},
+			{
+				"type": "Bloodstone Amulet",
+				"text": "血石項鍊"
+			},
+			{
+				"type": "Stellar Amulet",
+				"text": "恆星項鍊"
+			},
+			{
+				"type": "Solar Amulet",
+				"text": "日耀項鍊"
+			},
+			{
+				"type": "Rawhide Belt",
+				"text": "生皮腰帶"
+			},
+			{
+				"type": "Utility Belt",
+				"text": "實用腰帶"
+			},
+			{
+				"type": "Fine Belt",
+				"text": "精良腰帶"
+			},
+			{
+				"type": "Linen Belt",
+				"text": "麻布腰帶"
+			},
+			{
+				"type": "Wide Belt",
+				"text": "寬大腰帶"
+			},
+			{
+				"type": "Long Belt",
+				"text": "長腰帶"
+			},
+			{
+				"type": "Plate Belt",
+				"text": "板甲腰帶"
+			},
+			{
+				"type": "Ornate Belt",
+				"text": "華麗腰帶"
+			},
+			{
+				"type": "Mail Belt",
+				"text": "鎖甲腰帶"
+			},
+			{
+				"type": "Double Belt",
+				"text": "雙層腰帶"
+			},
+			{
+				"type": "Heavy Belt",
+				"text": "重革腰帶"
+			},
+			{
+				"type": "Iron Ring",
+				"text": "鍛鐵戒指"
+			},
+			{
+				"type": "Gold Ring",
+				"text": "金光戒指"
+			},
+			{
+				"type": "Unset Ring",
+				"text": "潛能之戒"
+			},
+			{
+				"type": "Lazuli Ring",
+				"text": "青金石戒指"
+			},
+			{
+				"type": "Ruby Ring",
+				"text": "紅玉戒指"
+			},
+			{
+				"type": "Sapphire Ring",
+				"text": "藍玉戒指"
+			},
+			{
+				"type": "Topaz Ring",
+				"text": "黃玉戒指"
+			},
+			{
+				"type": "Amethyst Ring",
+				"text": "紫晶戒指"
+			},
+			{
+				"type": "Emerald Ring",
+				"text": "綠寶石戒指"
+			},
+			{
+				"type": "Pearl Ring",
+				"text": "珍珠戒指"
+			},
+			{
+				"type": "Prismatic Ring",
+				"text": "三相戒指"
+			},
+			{
+				"type": "Breach Ring",
+				"text": "裂痕戒指"
+			},
+			{
+				"type": "Gold Ring",
+				"text": "貪慾之記 金光戒指",
+				"name": "Andvarius",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stellar Amulet",
+				"text": "均衡之符 恆星項鍊",
+				"name": "Astramentis",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Solar Amulet",
+				"text": "阿基斯的信標 日耀項鍊",
+				"name": "Beacon of Azis",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wide Belt",
+				"text": "天生權利扣環 寬大腰帶",
+				"name": "Birthright Buckle",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Amethyst Ring",
+				"text": "黯炎 紫晶戒指",
+				"name": "Blackflame",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Iron Ring",
+				"text": "幽暗之語 鍛鐵戒指",
+				"name": "Blackheart",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ruby Ring",
+				"text": "極熱護環 紅玉戒指",
+				"name": "Blistering Bond",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wide Belt",
+				"text": "布萊納巴斯 寬大腰帶",
+				"name": "Brynabas",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Topaz Ring",
+				"text": "意志呼喚 黃玉戒指",
+				"name": "Call of the Brotherhood",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Amber Amulet",
+				"text": "屠戮之心 琥珀護身符",
+				"name": "Carnage Heart",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Mail Belt",
+				"text": "懦夫的遺產 鎖甲腰帶",
+				"name": "Coward's Legacy",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ruby Ring",
+				"text": "裂紋怪客 紅玉戒指",
+				"name": "Cracklecreep",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Emerald Ring",
+				"text": "亡者呼喚 綠寶石戒指",
+				"name": "Death Rush",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Jade Amulet",
+				"text": "拒絕命運 翠玉護身符",
+				"name": "Defiance of Destiny",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lazuli Ring",
+				"text": "德瑞的魔具 青金石戒指",
+				"name": "Doedre's Damning",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sapphire Ring",
+				"text": "夢語之痕 藍玉戒指",
+				"name": "Dream Fragments",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gold Amulet",
+				"text": "夏烏拉之眼 帝金護身符",
+				"name": "Eye of Chayula",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Solar Amulet",
+				"text": "火焰之花 日耀項鍊",
+				"name": "Fireflower",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stellar Amulet",
+				"text": "伊克斯的依戀 恆星項鍊",
+				"name": "Fixation of Yix",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lazuli Ring",
+				"text": "發光蟲群 青金石戒指",
+				"name": "Glowswarm",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Heavy Belt",
+				"text": "獵首 重革腰帶",
+				"name": "Headhunter",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pearl Ring",
+				"text": "結魂之環 珍珠戒指",
+				"name": "Heartbound Loop",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crimson Amulet",
+				"text": "奧敦塑像 赤紅項鍊",
+				"name": "Idol of Uldurn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crimson Amulet",
+				"text": "烈焰之擊 赤紅項鍊",
+				"name": "Igniferis",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Plate Belt",
+				"text": "地獄之握 板甲腰帶",
+				"name": "Infernoclasp",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Linen Belt",
+				"text": "船拖刑 麻布腰帶",
+				"name": "Keelhaul",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Topaz Ring",
+				"text": "浮游石 黃玉戒指",
+				"name": "Levinstone",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lapis Amulet",
+				"text": "豐金巫符 海玉護身符",
+				"name": "Ligurium Talisman",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rawhide Belt",
+				"text": "梅吉諾德的力量泉源 生皮腰帶",
+				"name": "Meginord's Girdle",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rawhide Belt",
+				"text": "午夜護鏈 生皮腰帶",
+				"name": "Midnight Braid",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Amethyst Ring",
+				"text": "明恩的慧心 紫晶戒指",
+				"name": "Ming's Heart",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Amethyst Ring",
+				"text": "原罪 紫晶戒指",
+				"name": "Original Sin",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gold Ring",
+				"text": "普蘭德斯之印 金光戒指",
+				"name": "Perandus Seal",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sapphire Ring",
+				"text": "極圈 藍玉戒指",
+				"name": "Polcirkeln",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Amber Amulet",
+				"text": "崇敬樹脂 琥珀護身符",
+				"name": "Revered Resin",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lunar Amulet",
+				"text": "弱化圓飾 月神項鍊",
+				"name": "Rondel of Fragility",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ornate Belt",
+				"text": "瑞斯拉薩之纏 華麗腰帶",
+				"name": "Ryslatha's Coil",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lazuli Ring",
+				"text": "浩劫種子 青金石戒指",
+				"name": "Seed of Cataclysm",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gold Amulet",
+				"text": "毒蛇之卵 帝金護身符",
+				"name": "Serpent's Egg",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Fine Belt",
+				"text": "薛朗的背包 精良腰帶",
+				"name": "Shavronne's Satchel",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pearl Ring",
+				"text": "蛇巢 珍珠戒指",
+				"name": "Snakepit",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Long Belt",
+				"text": "靈魂束縛 長腰帶",
+				"name": "Soul Tether",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Jade Amulet",
+				"text": "穩健印記 翠玉護身符",
+				"name": "Surefooted Sigil",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Bloodstone Amulet",
+				"text": "信念之砧 血石項鍊",
+				"name": "The Anvil",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Topaz Ring",
+				"text": "掘地者 黃玉戒指",
+				"name": "The Burrower",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Azure Amulet",
+				"text": "永恆凝視 蒼藍項鍊",
+				"name": "The Everlasting Gaze",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Emerald Ring",
+				"text": "竊罪 綠寶石戒指",
+				"name": "Thief's Torment",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Azure Amulet",
+				"text": "恩吉爾的和諧 蒼藍項鍊",
+				"name": "Ungil's Harmony",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gold Ring",
+				"text": "賭神芬多 金光戒指",
+				"name": "Ventor's Gamble",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sapphire Ring",
+				"text": "意志低語 藍玉戒指",
+				"name": "Whisper of the Brotherhood",
+				"flags": {
+					"unique": true
+				}
+			}
+		]
+	},
+	{
+		"id": "armour",
+		"label": "護甲",
+		"entries": [
+			{
+				"type": "Leather Vest",
+				"text": "皮革背心"
+			},
+			{
+				"type": "Smuggler Coat",
+				"text": "走私者外套"
+			},
+			{
+				"type": "Quilted Vest",
+				"text": "襯墊背心"
+			},
+			{
+				"type": "Advanced Quilted Vest",
+				"text": "進階襯墊背心"
+			},
+			{
+				"type": "Pathfinder Coat",
+				"text": "追獵者外套"
+			},
+			{
+				"type": "Advanced Pathfinder Coat",
+				"text": "進階追獵者外套"
+			},
+			{
+				"type": "Expert Pathfinder Coat",
+				"text": "專家追獵者外套"
+			},
+			{
+				"type": "Shrouded Vest",
+				"text": "籠罩背心"
+			},
+			{
+				"type": "Rhoahide Coat",
+				"text": "恐喙鳥皮外套"
+			},
+			{
+				"type": "Advanced Rhoahide Coat",
+				"text": "進階恐喙鳥皮外套"
+			},
+			{
+				"type": "Studded Vest",
+				"text": "鑲釘背心"
+			},
+			{
+				"type": "Advanced Studded Vest",
+				"text": "進階鑲釘背心"
+			},
+			{
+				"type": "Expert Studded Vest",
+				"text": "專家鑲釘背心"
+			},
+			{
+				"type": "Scout's Vest",
+				"text": "斥侯背心"
+			},
+			{
+				"type": "Advanced Scout's Vest",
+				"text": "進階斥侯背心"
+			},
+			{
+				"type": "Serpentscale Coat",
+				"text": "蛇鱗外套"
+			},
+			{
+				"type": "Advanced Serpentscale Coat",
+				"text": "進階蛇鱗外套"
+			},
+			{
+				"type": "Expert Serpentscale Coat",
+				"text": "專家蛇鱗外套"
+			},
+			{
+				"type": "Hermit Garb",
+				"text": "隱士裝束"
+			},
+			{
+				"type": "Advanced Hermit Garb",
+				"text": "進階隱士裝束"
+			},
+			{
+				"type": "Waxed Jacket",
+				"text": "打蠟外衣"
+			},
+			{
+				"type": "Advanced Waxed Jacket",
+				"text": "進階打蠟外衣"
+			},
+			{
+				"type": "Expert Waxed Jacket",
+				"text": "專家打蠟外衣"
+			},
+			{
+				"type": "Marabout Garb",
+				"text": "修士裝束"
+			},
+			{
+				"type": "Advanced Marabout Garb",
+				"text": "進階修士裝束"
+			},
+			{
+				"type": "Wayfarer Jacket",
+				"text": "旅人外衣"
+			},
+			{
+				"type": "Advanced Wayfarer Jacket",
+				"text": "進階旅人外衣"
+			},
+			{
+				"type": "Expert Wayfarer Jacket",
+				"text": "專家旅人外衣"
+			},
+			{
+				"type": "Anchorite Garb",
+				"text": "隱者裝束"
+			},
+			{
+				"type": "Advanced Anchorite Garb",
+				"text": "進階隱者裝束"
+			},
+			{
+				"type": "Scalper's Jacket",
+				"text": "投機者外衣"
+			},
+			{
+				"type": "Advanced Scalper's Jacket",
+				"text": "進階投機者外衣"
+			},
+			{
+				"type": "Expert Scalper's Jacket",
+				"text": "專家投機者外衣"
+			},
+			{
+				"type": "Tattered Robe",
+				"text": "殘破長袍"
+			},
+			{
+				"type": "Feathered Robe",
+				"text": "羽毛長袍"
+			},
+			{
+				"type": "Advanced Feathered Robe",
+				"text": "進階羽毛長袍"
+			},
+			{
+				"type": "Hexer's Robe",
+				"text": "咒術師長袍"
+			},
+			{
+				"type": "Advanced Hexer's Robe",
+				"text": "進階咒術師長袍"
+			},
+			{
+				"type": "Expert Hexer's Robe",
+				"text": "專家咒術師長袍"
+			},
+			{
+				"type": "Bone Raiment",
+				"text": "骸骨之衣"
+			},
+			{
+				"type": "Silk Robe",
+				"text": "絲質之袍"
+			},
+			{
+				"type": "Advanced Silk Robe",
+				"text": "進階絲質之袍"
+			},
+			{
+				"type": "Keth Raiment",
+				"text": "凱斯之衣"
+			},
+			{
+				"type": "Advanced Keth Raiment",
+				"text": "進階凱斯之衣"
+			},
+			{
+				"type": "Expert Keth Raiment",
+				"text": "專家凱斯之衣"
+			},
+			{
+				"type": "Votive Raiment",
+				"text": "還願之衣"
+			},
+			{
+				"type": "Advanced Votive Raiment",
+				"text": "進階還願之衣"
+			},
+			{
+				"type": "Altar Robe",
+				"text": "祭壇長袍"
+			},
+			{
+				"type": "Advanced Altar Robe",
+				"text": "進階祭壇長袍"
+			},
+			{
+				"type": "Rusted Cuirass",
+				"text": "生鏽胸甲"
+			},
+			{
+				"type": "Champion Cuirass",
+				"text": "冠軍胸甲"
+			},
+			{
+				"type": "Fur Plate",
+				"text": "毛皮鎧甲"
+			},
+			{
+				"type": "Advanced Fur Plate",
+				"text": "進階毛皮鎧甲"
+			},
+			{
+				"type": "Iron Cuirass",
+				"text": "鍛鐵胸甲"
+			},
+			{
+				"type": "Advanced Iron Cuirass",
+				"text": "進階鍛鐵胸甲"
+			},
+			{
+				"type": "Expert Iron Cuirass",
+				"text": "專家鍛鐵胸甲"
+			},
+			{
+				"type": "Raider Plate",
+				"text": "俠客鎧甲"
+			},
+			{
+				"type": "Maraketh Cuirass",
+				"text": "馬拉克斯胸甲"
+			},
+			{
+				"type": "Advanced Maraketh Cuirass",
+				"text": "進階馬拉克斯胸甲"
+			},
+			{
+				"type": "Steel Plate",
+				"text": "堅鋼鎧甲"
+			},
+			{
+				"type": "Advanced Steel Plate",
+				"text": "進階堅鋼鎧甲"
+			},
+			{
+				"type": "Expert Steel Plate",
+				"text": "專家堅鋼鎧甲"
+			},
+			{
+				"type": "Full Plate",
+				"text": "連身鎧甲"
+			},
+			{
+				"type": "Advanced Full Plate",
+				"text": "進階連身鎧甲"
+			},
+			{
+				"type": "Vaal Cuirass",
+				"text": "瓦爾胸甲"
+			},
+			{
+				"type": "Advanced Vaal Cuirass",
+				"text": "進階瓦爾胸甲"
+			},
+			{
+				"type": "Chain Mail",
+				"text": "鎖鍊鎖甲"
+			},
+			{
+				"type": "Advanced Chain Mail",
+				"text": "進階鎖鍊鎖甲"
+			},
+			{
+				"type": "Rogue Armour",
+				"text": "盜賊護甲"
+			},
+			{
+				"type": "Advanced Rogue Armour",
+				"text": "進階盜賊護甲"
+			},
+			{
+				"type": "Expert Rogue Armour",
+				"text": "專家盜賊護甲"
+			},
+			{
+				"type": "Vagabond Armour",
+				"text": "流浪者護甲"
+			},
+			{
+				"type": "Advanced Vagabond Armour",
+				"text": "進階流浪者護甲"
+			},
+			{
+				"type": "Cloaked Mail",
+				"text": "斗篷鎖甲"
+			},
+			{
+				"type": "Expert Cloaked Mail",
+				"text": "專家斗篷鎖甲專家斗篷鎖甲專家斗篷鎖甲"
+			},
+			{
+				"type": "Advanced Cloaked Mail",
+				"text": "進階斗篷鎖甲"
+			},
+			{
+				"type": "Explorer Armour",
+				"text": "探索者護甲"
+			},
+			{
+				"type": "Advanced Explorer Armour",
+				"text": "進階探索者護甲"
+			},
+			{
+				"type": "Scale Mail",
+				"text": "鱗片鎖甲"
+			},
+			{
+				"type": "Advanced Scale Mail",
+				"text": "進階鱗片鎖甲"
+			},
+			{
+				"type": "Expert Scale Mail",
+				"text": "專家鱗片鎖甲"
+			},
+			{
+				"type": "Pilgrim Vestments",
+				"text": "朝聖者法衣"
+			},
+			{
+				"type": "Advanced Pilgrim Vestments",
+				"text": "進階朝聖者法衣"
+			},
+			{
+				"type": "Pelt Mantle",
+				"text": "堅皮披肩"
+			},
+			{
+				"type": "Advanced Pelt Mantle",
+				"text": "進階堅皮披肩"
+			},
+			{
+				"type": "Expert Pelt Mantle",
+				"text": "專家堅皮披肩"
+			},
+			{
+				"type": "Mail Vestments",
+				"text": "鎖甲法衣"
+			},
+			{
+				"type": "Advanced Mail Vestments",
+				"text": "進階鎖甲法衣"
+			},
+			{
+				"type": "Shaman Mantle",
+				"text": "薩滿披肩"
+			},
+			{
+				"type": "Advanced Shaman Mantle",
+				"text": "進階薩滿披肩"
+			},
+			{
+				"type": "Expert Shaman Mantle",
+				"text": "專家薩滿披肩"
+			},
+			{
+				"type": "Ironclad Vestments",
+				"text": "鐵甲法衣"
+			},
+			{
+				"type": "Advanced Ironclad Vestments",
+				"text": "進階鐵甲法衣"
+			},
+			{
+				"type": "Sacrificial Mantle",
+				"text": "獻祭披肩"
+			},
+			{
+				"type": "Advanced Sacrificial Mantle",
+				"text": "進階獻祭披肩"
+			},
+			{
+				"type": "Expert Sacrificial Mantle",
+				"text": "專家獻祭披肩"
+			},
+			{
+				"type": "Gilded Vestments",
+				"text": "鍍金法衣"
+			},
+			{
+				"type": "Rawhide Boots",
+				"text": "生皮長靴"
+			},
+			{
+				"type": "Laced Boots",
+				"text": "飾帶長靴"
+			},
+			{
+				"type": "Advanced Laced Boots",
+				"text": "進階飾帶長靴"
+			},
+			{
+				"type": "Expert Laced Boots",
+				"text": "專家飾帶長靴"
+			},
+			{
+				"type": "Embossed Boots",
+				"text": "浮雕長靴"
+			},
+			{
+				"type": "Advanced Embossed Boots",
+				"text": "進階浮雕長靴"
+			},
+			{
+				"type": "Steeltoe Boots",
+				"text": "鐵趾長靴"
+			},
+			{
+				"type": "Advanced Steeltoe Boots",
+				"text": "進階鐵趾長靴"
+			},
+			{
+				"type": "Expert Steeltoe Boots",
+				"text": "專家鐵趾長靴"
+			},
+			{
+				"type": "Lizardscale Boots",
+				"text": "蜥蜴鱗長靴"
+			},
+			{
+				"type": "Advanced Lizardscale Boots",
+				"text": "進階蜥蜴鱗長靴"
+			},
+			{
+				"type": "Expert Lizardscale Boots",
+				"text": "專家蜥蜴鱗長靴"
+			},
+			{
+				"type": "Frayed Shoes",
+				"text": "磨損輕鞋"
+			},
+			{
+				"type": "Advanced Frayed Shoes",
+				"text": "進階磨損輕鞋"
+			},
+			{
+				"type": "Expert Frayed Shoes",
+				"text": "專家磨損輕鞋"
+			},
+			{
+				"type": "Threaded Shoes",
+				"text": "縫紉輕鞋"
+			},
+			{
+				"type": "Advanced Threaded Shoes",
+				"text": "進階縫紉輕鞋"
+			},
+			{
+				"type": "Expert Threaded Shoes",
+				"text": "專家縫紉輕鞋"
+			},
+			{
+				"type": "Hunting Shoes",
+				"text": "狩獵輕鞋"
+			},
+			{
+				"type": "Advanced Hunting Shoes",
+				"text": "進階狩獵輕鞋"
+			},
+			{
+				"type": "Expert Hunting Shoes",
+				"text": "專家狩獵輕鞋"
+			},
+			{
+				"type": "Straw Sandals",
+				"text": "乾草便鞋"
+			},
+			{
+				"type": "Wrapped Sandals",
+				"text": "裹腳便鞋"
+			},
+			{
+				"type": "Advanced Wrapped Sandals",
+				"text": "進階裹腳便鞋"
+			},
+			{
+				"type": "Expert Wrapped Sandals",
+				"text": "專家裹腳便鞋"
+			},
+			{
+				"type": "Lattice Sandals",
+				"text": "格子便鞋"
+			},
+			{
+				"type": "Advanced Lattice Sandals",
+				"text": "進階格子便鞋"
+			},
+			{
+				"type": "Silk Slippers",
+				"text": "絲綢便鞋"
+			},
+			{
+				"type": "Advanced Silk Slippers",
+				"text": "進階絲綢便鞋"
+			},
+			{
+				"type": "Expert Silk Slippers",
+				"text": "專家絲綢便鞋"
+			},
+			{
+				"type": "Feathered Sandals",
+				"text": "羽毛便鞋"
+			},
+			{
+				"type": "Advanced Feathered Sandals",
+				"text": "進階羽毛便鞋"
+			},
+			{
+				"type": "Expert Feathered Sandals",
+				"text": "專家羽毛便鞋"
+			},
+			{
+				"type": "Rough Greaves",
+				"text": "粗糙脛甲"
+			},
+			{
+				"type": "Iron Greaves",
+				"text": "鐵鍛脛甲"
+			},
+			{
+				"type": "Advanced Iron Greaves",
+				"text": "進階鐵鍛脛甲"
+			},
+			{
+				"type": "Expert Iron Greaves",
+				"text": "專家鐵鍛脛甲"
+			},
+			{
+				"type": "Bronze Greaves",
+				"text": "青銅脛甲"
+			},
+			{
+				"type": "Advanced Bronze Greaves",
+				"text": "進階青銅脛甲"
+			},
+			{
+				"type": "Trimmed Greaves",
+				"text": "鑲邊脛甲"
+			},
+			{
+				"type": "Advanced Trimmed Greaves",
+				"text": "進階鑲邊脛甲"
+			},
+			{
+				"type": "Expert Trimmed Greaves",
+				"text": "專家鑲邊脛甲"
+			},
+			{
+				"type": "Stone Greaves",
+				"text": "岩石脛甲"
+			},
+			{
+				"type": "Advanced Stone Greaves",
+				"text": "進階岩石脛甲"
+			},
+			{
+				"type": "Expert Stone Greaves",
+				"text": "專家岩石脛甲"
+			},
+			{
+				"type": "Mail Sabatons",
+				"text": "鎖甲鎧靴"
+			},
+			{
+				"type": "Advanced Mail Sabatons",
+				"text": "進階鎖甲鎧靴"
+			},
+			{
+				"type": "Expert Mail Sabatons",
+				"text": "專家鎖甲鎧靴"
+			},
+			{
+				"type": "Braced Sabatons",
+				"text": "加固鎧靴"
+			},
+			{
+				"type": "Advanced Braced Sabatons",
+				"text": "進階加固鎧靴"
+			},
+			{
+				"type": "Expert Braced Sabatons",
+				"text": "專家加固鎧靴"
+			},
+			{
+				"type": "Stacked Sabatons",
+				"text": "疊層鎧靴"
+			},
+			{
+				"type": "Advanced Stacked Sabatons",
+				"text": "進階疊層鎧靴"
+			},
+			{
+				"type": "Padded Leggings",
+				"text": "襯墊護腿"
+			},
+			{
+				"type": "Advanced Padded Leggings",
+				"text": "進階襯墊護腿"
+			},
+			{
+				"type": "Expert Padded Leggings",
+				"text": "專家襯墊護腿"
+			},
+			{
+				"type": "Secured Leggings",
+				"text": "牢固護腿"
+			},
+			{
+				"type": "Advanced Secured Leggings",
+				"text": "進階牢固護腿"
+			},
+			{
+				"type": "Expert Secured Leggings",
+				"text": "專家牢固護腿"
+			},
+			{
+				"type": "Pelt Leggings",
+				"text": "堅皮護腿"
+			},
+			{
+				"type": "Advanced Pelt Leggings",
+				"text": "進階堅皮護腿"
+			},
+			{
+				"type": "Expert Pelt Leggings",
+				"text": "專家堅皮護腿"
+			},
+			{
+				"type": "Twig Focus",
+				"text": "枝條法器"
+			},
+			{
+				"type": "Woven Focus",
+				"text": "編織法器"
+			},
+			{
+				"type": "Advanced Woven Focus",
+				"text": "進階編織法器"
+			},
+			{
+				"type": "Antler Focus",
+				"text": "靈鹿法器"
+			},
+			{
+				"type": "Advanced Antler Focus",
+				"text": "進階靈鹿法器"
+			},
+			{
+				"type": "Expert Antler Focus",
+				"text": "專家靈鹿法器"
+			},
+			{
+				"type": "Engraved Focus",
+				"text": "紋刻法器"
+			},
+			{
+				"type": "Tonal Focus",
+				"text": "音調法器"
+			},
+			{
+				"type": "Advanced Tonal Focus",
+				"text": "進階音調法器"
+			},
+			{
+				"type": "Crystal Focus",
+				"text": "水晶法器"
+			},
+			{
+				"type": "Advanced Crystal Focus",
+				"text": "進階水晶法器"
+			},
+			{
+				"type": "Expert Crystal Focus",
+				"text": "專家水晶法器"
+			},
+			{
+				"type": "Voodoo Focus",
+				"text": "巫毒法器"
+			},
+			{
+				"type": "Advanced Voodoo Focus",
+				"text": "進階巫毒法器"
+			},
+			{
+				"type": "Plumed Focus",
+				"text": "羽飾法器"
+			},
+			{
+				"type": "Advanced Plumed Focus",
+				"text": "進階羽毛法器"
+			},
+			{
+				"type": "Expert Plumed Focus",
+				"text": "專家羽毛法器"
+			},
+			{
+				"type": "Suede Bracers",
+				"text": "麂皮護腕"
+			},
+			{
+				"type": "Firm Bracers",
+				"text": "穩固護腕"
+			},
+			{
+				"type": "Advanced Firm Bracers",
+				"text": "進階穩固護腕"
+			},
+			{
+				"type": "Expert Firm Bracers",
+				"text": "專家穩固護腕"
+			},
+			{
+				"type": "Bound Bracers",
+				"text": "緊縛護腕"
+			},
+			{
+				"type": "Advanced Bound Bracers",
+				"text": "進階緊縛護腕"
+			},
+			{
+				"type": "Sectioned Bracers",
+				"text": "分段護腕"
+			},
+			{
+				"type": "Advanced Sectioned Bracers",
+				"text": "進階分段護腕"
+			},
+			{
+				"type": "Expert Sectioned Bracers",
+				"text": "專家分段護腕"
+			},
+			{
+				"type": "Spined Bracers",
+				"text": "棘刺護腕"
+			},
+			{
+				"type": "Advanced Spined Bracers",
+				"text": "進階棘刺護腕"
+			},
+			{
+				"type": "Expert Spined Bracers",
+				"text": "專家棘刺護腕"
+			},
+			{
+				"type": "Fine Bracers",
+				"text": "精良護腕"
+			},
+			{
+				"type": "Gauze Wraps",
+				"text": "紗布裹手"
+			},
+			{
+				"type": "Advanced Gauze Wraps",
+				"text": "進階紗布裹手"
+			},
+			{
+				"type": "Expert Gauze Wraps",
+				"text": "專家紗布裹手"
+			},
+			{
+				"type": "Linen Wraps",
+				"text": "麻布裹手"
+			},
+			{
+				"type": "Advanced Linen Wraps",
+				"text": "進階麻布裹手"
+			},
+			{
+				"type": "Expert Linen Wraps",
+				"text": "專家麻布裹手"
+			},
+			{
+				"type": "Spiral Wraps",
+				"text": "盤繞裹手"
+			},
+			{
+				"type": "Advanced Spiral Wraps",
+				"text": "進階盤繞裹手"
+			},
+			{
+				"type": "Expert Spiral Wraps",
+				"text": "專家盤繞裹手"
+			},
+			{
+				"type": "Torn Gloves",
+				"text": "撕裂手套"
+			},
+			{
+				"type": "Sombre Gloves",
+				"text": "暗淡手套"
+			},
+			{
+				"type": "Advanced Sombre Gloves",
+				"text": "進階暗淡手套"
+			},
+			{
+				"type": "Expert Sombre Gloves",
+				"text": "專家暗淡手套"
+			},
+			{
+				"type": "Stitched Gloves",
+				"text": "縫合手套"
+			},
+			{
+				"type": "Advanced Stitched Gloves",
+				"text": "進階縫合手套"
+			},
+			{
+				"type": "Jewelled Gloves",
+				"text": "寶石手套"
+			},
+			{
+				"type": "Advanced Jewelled Gloves",
+				"text": "進階寶石手套"
+			},
+			{
+				"type": "Expert Jewelled Gloves",
+				"text": "專家寶石手套"
+			},
+			{
+				"type": "Intricate Gloves",
+				"text": "精妙手套"
+			},
+			{
+				"type": "Advanced Intricate Gloves",
+				"text": "進階精妙手套"
+			},
+			{
+				"type": "Expert Intricate Gloves",
+				"text": "專家精妙手套"
+			},
+			{
+				"type": "Stocky Mitts",
+				"text": "結實長手套"
+			},
+			{
+				"type": "Riveted Mitts",
+				"text": "鉚接長手套"
+			},
+			{
+				"type": "Advanced Riveted Mitts",
+				"text": "進階鉚接長手套"
+			},
+			{
+				"type": "Expert Riveted Mitts",
+				"text": "專家鉚接長手套"
+			},
+			{
+				"type": "Tempered Mitts",
+				"text": "淬鍊長手套"
+			},
+			{
+				"type": "Advanced Tempered Mitts",
+				"text": "進階淬鍊長手套"
+			},
+			{
+				"type": "Bolstered Mitts",
+				"text": "加固長手套"
+			},
+			{
+				"type": "Advanced Bolstered Mitts",
+				"text": "進階加固長手套"
+			},
+			{
+				"type": "Expert Bolstered Mitts",
+				"text": "專家加固長手套"
+			},
+			{
+				"type": "Moulded Mitts",
+				"text": "鑄模長手套"
+			},
+			{
+				"type": "Advanced Moulded Mitts",
+				"text": "進階鑄模長手套"
+			},
+			{
+				"type": "Expert Moulded Mitts",
+				"text": "專家鑄模長手套"
+			},
+			{
+				"type": "Ringmail Gauntlets",
+				"text": "環鎖護手"
+			},
+			{
+				"type": "Advanced Ringmail Gauntlets",
+				"text": "進階環鎖護手"
+			},
+			{
+				"type": "Expert Ringmail Gauntlets",
+				"text": "專家環鎖護手"
+			},
+			{
+				"type": "Layered Gauntlets",
+				"text": "層板護手"
+			},
+			{
+				"type": "Advanced Layered Gauntlets",
+				"text": "進階層板護手"
+			},
+			{
+				"type": "Expert Layered Gauntlets",
+				"text": "專家層板護手"
+			},
+			{
+				"type": "Doubled Gauntlets",
+				"text": "雙層護手"
+			},
+			{
+				"type": "Advanced Doubled Gauntlets",
+				"text": "進階雙層護手"
+			},
+			{
+				"type": "Expert Doubled Gauntlets",
+				"text": "專家雙層護手"
+			},
+			{
+				"type": "Burnished Gauntlets",
+				"text": "拋光護手"
+			},
+			{
+				"type": "Rope Cuffs",
+				"text": "繩索腕帶"
+			},
+			{
+				"type": "Advanced Rope Cuffs",
+				"text": "進階繩索腕帶"
+			},
+			{
+				"type": "Expert Rope Cuffs",
+				"text": "專家繩索腕帶"
+			},
+			{
+				"type": "Aged Cuffs",
+				"text": "陳舊腕帶"
+			},
+			{
+				"type": "Advanced Aged Cuffs",
+				"text": "進階陳舊腕帶"
+			},
+			{
+				"type": "Expert Aged Cuffs",
+				"text": "專家陳舊腕帶"
+			},
+			{
+				"type": "Goldcast Cuffs",
+				"text": "金鑄腕帶"
+			},
+			{
+				"type": "Advanced Goldcast Cuffs",
+				"text": "進階金鑄腕帶"
+			},
+			{
+				"type": "Shabby Hood",
+				"text": "破舊兜帽"
+			},
+			{
+				"type": "Covert Hood",
+				"text": "隱蔽兜帽"
+			},
+			{
+				"type": "Armoured Cap",
+				"text": "裝甲便帽"
+			},
+			{
+				"type": "Advanced Shabby Hood",
+				"text": "進階破舊兜帽"
+			},
+			{
+				"type": "Felt Cap",
+				"text": "毛氈便帽"
+			},
+			{
+				"type": "Advanced Felt Cap",
+				"text": "進階毛氈便帽"
+			},
+			{
+				"type": "Expert Felt Cap",
+				"text": "專家毛氈便帽"
+			},
+			{
+				"type": "Lace Hood",
+				"text": "綁帶兜帽"
+			},
+			{
+				"type": "Advanced Lace Hood",
+				"text": "進階綁帶兜帽"
+			},
+			{
+				"type": "Swathed Cap",
+				"text": "裹頭便帽"
+			},
+			{
+				"type": "Advanced Swathed Cap",
+				"text": "進階裹頭便帽"
+			},
+			{
+				"type": "Expert Swathed Cap",
+				"text": "專家裹頭便帽"
+			},
+			{
+				"type": "Hunter Hood",
+				"text": "獵者之兜"
+			},
+			{
+				"type": "Advanced Hunter Hood",
+				"text": "進階獵者之兜"
+			},
+			{
+				"type": "Expert Hunter Hood",
+				"text": "專家獵者之兜"
+			},
+			{
+				"type": "Viper Cap",
+				"text": "毒蛇便帽"
+			},
+			{
+				"type": "Hewn Mask",
+				"text": "粗製之面"
+			},
+			{
+				"type": "Advanced Hewn Mask",
+				"text": "進階粗製之面"
+			},
+			{
+				"type": "Face Mask",
+				"text": "護臉之面"
+			},
+			{
+				"type": "Advanced Face Mask",
+				"text": "進階護臉之面"
+			},
+			{
+				"type": "Expert Face Mask",
+				"text": "專家護臉之面"
+			},
+			{
+				"type": "Hooded Mask",
+				"text": "風帽之面"
+			},
+			{
+				"type": "Advanced Hooded Mask",
+				"text": "進階風帽之面"
+			},
+			{
+				"type": "Veiled Mask",
+				"text": "隱匿之面"
+			},
+			{
+				"type": "Advanced Veiled Mask",
+				"text": "進階隱匿之面"
+			},
+			{
+				"type": "Expert Veiled Mask",
+				"text": "專家隱匿之面"
+			},
+			{
+				"type": "Tribal Mask",
+				"text": "部落之面"
+			},
+			{
+				"type": "Advanced Tribal Mask",
+				"text": "進階部落之面"
+			},
+			{
+				"type": "Solid Mask",
+				"text": "堅固之面"
+			},
+			{
+				"type": "Twig Circlet",
+				"text": "嫩枝頭環"
+			},
+			{
+				"type": "Advanced Twig Circlet",
+				"text": "進階嫩枝頭環"
+			},
+			{
+				"type": "Wicker Tiara",
+				"text": "枝條頭冠"
+			},
+			{
+				"type": "Advanced Wicker Tiara",
+				"text": "進階枝條頭冠"
+			},
+			{
+				"type": "Expert Wicker Tiara",
+				"text": "專家枝條頭冠"
+			},
+			{
+				"type": "Beaded Circlet",
+				"text": "串珠頭環"
+			},
+			{
+				"type": "Advanced Beaded Circlet",
+				"text": "進階串珠頭環"
+			},
+			{
+				"type": "Chain Tiara",
+				"text": "鎖鍊頭冠"
+			},
+			{
+				"type": "Advanced Chain Tiara",
+				"text": "進階鎖鍊頭冠"
+			},
+			{
+				"type": "Expert Chain Tiara",
+				"text": "專家鎖鍊頭冠"
+			},
+			{
+				"type": "Feathered Tiara",
+				"text": "羽毛頭冠"
+			},
+			{
+				"type": "Advanced Feathered Tiara",
+				"text": "進階羽毛頭冠"
+			},
+			{
+				"type": "Expert Feathered Tiara",
+				"text": "專家羽毛頭冠"
+			},
+			{
+				"type": "Gold Circlet",
+				"text": "黃金頭環"
+			},
+			{
+				"type": "Rusted Greathelm",
+				"text": "鏽蝕巨盔"
+			},
+			{
+				"type": "Advanced Rusted Greathelm",
+				"text": "進階鏽蝕巨盔"
+			},
+			{
+				"type": "Soldier Greathelm",
+				"text": "士兵巨盔"
+			},
+			{
+				"type": "Advanced Soldier Greathelm",
+				"text": "進階士兵巨盔"
+			},
+			{
+				"type": "Expert Soldier Greathelm",
+				"text": "專家士兵巨盔"
+			},
+			{
+				"type": "Wrapped Greathelm",
+				"text": "纏繞巨盔"
+			},
+			{
+				"type": "Advanced Wrapped Greathelm",
+				"text": "進階纏繞巨盔"
+			},
+			{
+				"type": "Spired Greathelm",
+				"text": "尖頂巨盔"
+			},
+			{
+				"type": "Advanced Spired Greathelm",
+				"text": "進階尖頂巨盔"
+			},
+			{
+				"type": "Expert Spired Greathelm",
+				"text": "專家尖頂巨盔"
+			},
+			{
+				"type": "Elite Greathelm",
+				"text": "菁英巨盔"
+			},
+			{
+				"type": "Advanced Elite Greathelm",
+				"text": "進階菁英巨盔"
+			},
+			{
+				"type": "Expert Elite Greathelm",
+				"text": "專家菁英巨盔"
+			},
+			{
+				"type": "Warrior Greathelm",
+				"text": "戰士巨盔"
+			},
+			{
+				"type": "Brimmed Helm",
+				"text": "邊緣之盔"
+			},
+			{
+				"type": "Advanced Brimmed Helm",
+				"text": "進階邊緣之盔"
+			},
+			{
+				"type": "Guarded Helm",
+				"text": "警惕之盔"
+			},
+			{
+				"type": "Advanced Guarded Helm",
+				"text": "進階警惕之盔"
+			},
+			{
+				"type": "Expert Guarded Helm",
+				"text": "專家警惕之盔"
+			},
+			{
+				"type": "Visored Helm",
+				"text": "假面之盔"
+			},
+			{
+				"type": "Advanced Visored Helm",
+				"text": "進階假面之盔"
+			},
+			{
+				"type": "Cowled Helm",
+				"text": "斗篷之盔"
+			},
+			{
+				"type": "Advanced Cowled Helm",
+				"text": "進階斗篷之盔"
+			},
+			{
+				"type": "Expert Cowled Helm",
+				"text": "專家斗篷之盔"
+			},
+			{
+				"type": "Shielded Helm",
+				"text": "庇護之盔"
+			},
+			{
+				"type": "Advanced Shielded Helm",
+				"text": "進階庇護之盔"
+			},
+			{
+				"type": "Expert Shielded Helm",
+				"text": "專家庇護之盔"
+			},
+			{
+				"type": "Iron Crown",
+				"text": "鍛鐵之冠"
+			},
+			{
+				"type": "Advanced Iron Crown",
+				"text": "進階鍛鐵之冠"
+			},
+			{
+				"type": "Horned Crown",
+				"text": "犄角之冠"
+			},
+			{
+				"type": "Advanced Horned Crown",
+				"text": "進階犄角之冠"
+			},
+			{
+				"type": "Expert Horned Crown",
+				"text": "專家犄角之冠"
+			},
+			{
+				"type": "Cultist Crown",
+				"text": "教徒之冠"
+			},
+			{
+				"type": "Advanced Cultist Crown",
+				"text": "進階教徒之冠"
+			},
+			{
+				"type": "Martyr Crown",
+				"text": "殉難之冠"
+			},
+			{
+				"type": "Advanced Martyr Crown",
+				"text": "進階殉難之冠"
+			},
+			{
+				"type": "Expert Martyr Crown",
+				"text": "專家殉難之冠"
+			},
+			{
+				"type": "Heavy Crown",
+				"text": "沉重之冠"
+			},
+			{
+				"type": "Advanced Heavy Crown",
+				"text": "進階沉重之冠"
+			},
+			{
+				"type": "Expert Heavy Crown",
+				"text": "專家沉重之冠"
+			},
+			{
+				"type": "Splintered Tower Shield",
+				"text": "朽木塔盾"
+			},
+			{
+				"type": "Painted Tower Shield",
+				"text": "彩繪塔盾"
+			},
+			{
+				"type": "Advanced Painted Tower Shield",
+				"text": "進階彩繪塔盾"
+			},
+			{
+				"type": "Braced Tower Shield",
+				"text": "加固塔盾"
+			},
+			{
+				"type": "Advanced Braced Tower Shield",
+				"text": "進階加固塔盾"
+			},
+			{
+				"type": "Expert Braced Tower Shield",
+				"text": "專家加固塔盾"
+			},
+			{
+				"type": "Barricade Tower Shield",
+				"text": "障壁塔盾"
+			},
+			{
+				"type": "Effigial Tower Shield",
+				"text": "靈像塔盾"
+			},
+			{
+				"type": "Advanced Effigial Tower Shield",
+				"text": "進階靈像塔盾"
+			},
+			{
+				"type": "Rampart Tower Shield",
+				"text": "壁壘塔盾"
+			},
+			{
+				"type": "Advanced Rampart Tower Shield",
+				"text": "進階壁壘塔盾"
+			},
+			{
+				"type": "Expert Rampart Tower Shield",
+				"text": "專家壁壘塔盾"
+			},
+			{
+				"type": "Heraldric Tower Shield",
+				"text": "紋章塔盾"
+			},
+			{
+				"type": "Advanced Heraldric Tower Shield",
+				"text": "進階紋章塔盾"
+			},
+			{
+				"type": "Stone Tower Shield",
+				"text": "岩石塔盾"
+			},
+			{
+				"type": "Advanced Stone Tower Shield",
+				"text": "進階岩石塔盾"
+			},
+			{
+				"type": "Expert Stone Tower Shield",
+				"text": "專家岩石塔盾"
+			},
+			{
+				"type": "Hardwood Targe",
+				"text": "硬木圓盾"
+			},
+			{
+				"type": "Advanced Hardwood Targe",
+				"text": "進階硬木圓盾"
+			},
+			{
+				"type": "Pelage Targe",
+				"text": "毛皮圓盾"
+			},
+			{
+				"type": "Advanced Pelage Targe",
+				"text": "進階毛皮圓盾"
+			},
+			{
+				"type": "Expert Pelage Targe",
+				"text": "專家毛皮圓盾"
+			},
+			{
+				"type": "Studded Targe",
+				"text": "鑲釘圓盾"
+			},
+			{
+				"type": "Advanced Studded Targe",
+				"text": "進階鑲釘圓盾"
+			},
+			{
+				"type": "Crescent Targe",
+				"text": "新月圓盾"
+			},
+			{
+				"type": "Advanced Crescent Targe",
+				"text": "進階新月圓盾"
+			},
+			{
+				"type": "Expert Crescent Targe",
+				"text": "專家新月圓盾"
+			},
+			{
+				"type": "Chiseled Targe",
+				"text": "鑿刻圓盾"
+			},
+			{
+				"type": "Advanced Chiseled Targe",
+				"text": "進階鑿刻圓盾"
+			},
+			{
+				"type": "Feathered Targe",
+				"text": "羽毛圓盾"
+			},
+			{
+				"type": "Advanced Feathered Targe",
+				"text": "進階羽毛圓盾"
+			},
+			{
+				"type": "Blazon Crest Shield",
+				"text": "家徽紋章盾"
+			},
+			{
+				"type": "Advanced Blazon Crest Shield",
+				"text": "進階家徽紋章盾"
+			},
+			{
+				"type": "Sigil Crest Shield",
+				"text": "符印紋章盾"
+			},
+			{
+				"type": "Advanced Sigil Crest Shield",
+				"text": "進階符印紋章盾"
+			},
+			{
+				"type": "Expert Sigil Crest Shield",
+				"text": "專家符印紋章盾"
+			},
+			{
+				"type": "Emblem Crest Shield",
+				"text": "徽印紋章盾"
+			},
+			{
+				"type": "Advanced Emblem Crest Shield",
+				"text": "進階徽印紋章盾"
+			},
+			{
+				"type": "Jingling Crest Shield",
+				"text": "響聲紋章盾"
+			},
+			{
+				"type": "Advanced Jingling Crest Shield",
+				"text": "進階響聲紋章盾"
+			},
+			{
+				"type": "Expert Jingling Crest Shield",
+				"text": "專家響聲紋章盾"
+			},
+			{
+				"type": "Sectarian Crest Shield",
+				"text": "宗派紋章盾"
+			},
+			{
+				"type": "Advanced Sectarian Crest Shield",
+				"text": "進階宗派紋章盾"
+			},
+			{
+				"type": "Omen Crest Shield",
+				"text": "預兆紋章盾"
+			},
+			{
+				"type": "Advanced Omen Crest Shield",
+				"text": "進階預兆紋章盾"
+			},
+			{
+				"type": "Expert Omen Crest Shield",
+				"text": "專家預兆紋章盾"
+			},
+			{
+				"type": "Broadhead Quiver",
+				"text": "寬頭箭袋"
+			},
+			{
+				"type": "Volant Quiver",
+				"text": "速射箭袋"
+			},
+			{
+				"type": "Visceral Quiver",
+				"text": "內臟箭袋"
+			},
+			{
+				"type": "Fire Quiver",
+				"text": "火焰箭袋"
+			},
+			{
+				"type": "Sacral Quiver",
+				"text": "聖禮箭袋"
+			},
+			{
+				"type": "Two-Point Quiver",
+				"text": "雙尖箭袋"
+			},
+			{
+				"type": "Blunt Quiver",
+				"text": "鈍箭袋"
+			},
+			{
+				"type": "Toxic Quiver",
+				"text": "劇毒箭袋"
+			},
+			{
+				"type": "Serrated Quiver",
+				"text": "鋸齒箭袋"
+			},
+			{
+				"type": "Primed Quiver",
+				"text": "灌注箭袋"
+			},
+			{
+				"type": "Penetrating Quiver",
+				"text": "穿透箭袋"
+			},
+			{
+				"type": "Burnished Gauntlets",
+				"text": "艾瑞斯凡恩之翼 拋光護手",
+				"name": "Aerisvane's Wings",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Blazon Crest Shield",
+				"text": "神諭 家徽紋章盾",
+				"name": "Alkem Eira",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Armoured Cap",
+				"text": "極地之嗥 裝甲便帽",
+				"name": "Alpha's Howl",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hermit Garb",
+				"text": "埃米蘭之裙 隱士裝束",
+				"name": "Apron of Emiran",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hardwood Targe",
+				"text": "阿瓦爾之輪 硬木圓盾",
+				"name": "Arvil's Wheel",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pathfinder Coat",
+				"text": "拂燼 追獵者外套",
+				"name": "Ashrend",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Broadhead Quiver",
+				"text": "冰靈之吼 寬頭箭袋",
+				"name": "Asphyxia's Wrath",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Veiled Mask",
+				"text": "阿札克之瞳 隱匿之面",
+				"name": "Atsak's Sight",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Moulded Mitts",
+				"text": "阿茲里的捷思 鑄模長手套",
+				"name": "Atziri's Acuity",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gold Circlet",
+				"text": "阿茲里的蔑視 黃金頭環",
+				"name": "Atziri's Disdain",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Layered Gauntlets",
+				"text": "富貴之運 層板護手",
+				"name": "Aurseize",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Explorer Armour",
+				"text": "獸腹 探索者護甲",
+				"name": "Belly of the Beast",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stone Greaves",
+				"text": "憤怒的誕生 岩石脛甲",
+				"name": "Birth of Fury",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Feathered Robe",
+				"text": "苦心花 羽毛長袍",
+				"name": "Bitterbloom",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Fur Plate",
+				"text": "黑辮 毛皮鎧甲",
+				"name": "Blackbraid",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Fire Quiver",
+				"text": "黑炎之芒 火焰箭袋",
+				"name": "Blackgleam",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wrapped Greathelm",
+				"text": "黑陽之冠 纏繞巨盔",
+				"name": "Black Sun Crest",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Goldcast Cuffs",
+				"text": "藍焰護腕 金鑄腕帶",
+				"name": "Blueflame Bracers",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lattice Sandals",
+				"text": "烏勒爾之骨 格子便鞋",
+				"name": "Bones of Ullr",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rusted Cuirass",
+				"text": "刺棘寶甲 生鏽胸甲",
+				"name": "Bramblejack",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Laced Boots",
+				"text": "薔薇眼罩 飾帶長靴",
+				"name": "Briarpatch",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rhoahide Coat",
+				"text": "荒途 恐喙鳥皮外套",
+				"name": "Briskwrap",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Leather Vest",
+				"text": "鬃豬 皮革背心",
+				"name": "Bristleboar",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Horned Crown",
+				"text": "銅鬚 犄角之冠",
+				"name": "Bronzebeard",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lizardscale Boots",
+				"text": "突襲 蜥蜴鱗長靴",
+				"name": "Bushwhack",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sombre Gloves",
+				"text": "製燭者 暗淡手套",
+				"name": "Candlemaker",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Engraved Focus",
+				"text": "腐肉呼喚 紋刻法器",
+				"name": "Carrion Call",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Silk Robe",
+				"text": "烈炎之袍 絲質之袍",
+				"name": "Cloak of Flame",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Chain Mail",
+				"text": "腥紅外衣 鎖鍊鎖甲",
+				"name": "Coat of Red",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Heavy Crown",
+				"text": "科那索姆 沉重之冠",
+				"name": "Cornathaum",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Warrior Greathelm",
+				"text": "紅日之冕 戰士巨盔",
+				"name": "Corona of the Red Sun",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Iron Greaves",
+				"text": "屍骨之靴 鐵鍛脛甲",
+				"name": "Corpsewade",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gilded Vestments",
+				"text": "緋紅訂製服 鍍金法衣",
+				"name": "Couture of Crimson",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Jingling Crest Shield",
+				"text": "阿杜拉之冠 響聲紋章盾",
+				"name": "Crest of Ardura",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Cultist Crown",
+				"text": "殞皇之冠 教徒之冠",
+				"name": "Crown of the Pale King",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Iron Crown",
+				"text": "勝者之冠 鍛鐵之冠",
+				"name": "Crown of the Victor",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Twig Circlet",
+				"text": "刺棘之冠 嫩枝頭環",
+				"name": "Crown of Thorns",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Braced Sabatons",
+				"text": "暗雷 加固鎧靴",
+				"name": "Darkray Vectors",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Doubled Gauntlets",
+				"text": "致命一擊 雙層護手",
+				"name": "Deathblow",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Twig Focus",
+				"text": "死亡之聲 枝條法器",
+				"name": "Deathrattle",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Elite Greathelm",
+				"text": "喪鐘 菁英巨盔",
+				"name": "Deidbell",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Intricate Gloves",
+				"text": "縫魔 精妙手套",
+				"name": "Demon Stitcher",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Splintered Tower Shield",
+				"text": "捍衛者 朽木塔盾",
+				"name": "Dionadair",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stitched Gloves",
+				"text": "德瑞的精神手套 縫合手套",
+				"name": "Doedre's Tenure",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Braced Tower Shield",
+				"text": "末日之門 加固塔盾",
+				"name": "Doomgate",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Scale Mail",
+				"text": "多里亞尼之型 鱗片鎖甲",
+				"name": "Doryani's Prototype",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Studded Vest",
+				"text": "塵土之花 鑲釘背心",
+				"name": "Dustbloom",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Iron Cuirass",
+				"text": "埃狄恩的曲牙 鍛鐵胸甲",
+				"name": "Edyrn's Tusks",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hunter Hood",
+				"text": "愛勒弗 獵者之兜",
+				"name": "Elevore",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pilgrim Vestments",
+				"text": "晨曦之擁 朝聖者法衣",
+				"name": "Enfolding Dawn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Guarded Helm",
+				"text": "埃里安的鵝卵石 警惕之盔",
+				"name": "Erian's Cobble",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Soldier Greathelm",
+				"text": "艾茲麥的榮光 士兵巨盔",
+				"name": "Ezomyte Peak",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crescent Targe",
+				"text": "羽毛堡壘 新月圓盾",
+				"name": "Feathered Fortress",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Chain Tiara",
+				"text": "禁忌凝視 鎖鍊頭冠",
+				"name": "Forbidden Gaze",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Quilted Vest",
+				"text": "狐毛鎧 襯墊背心",
+				"name": "Foxshade",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Embossed Boots",
+				"text": "豪賭 浮雕長靴",
+				"name": "Gamblesprint",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Threaded Shoes",
+				"text": "鬼行 縫紉輕鞋",
+				"name": "Ghostmarch",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Tattered Robe",
+				"text": "鬧鬼 殘破長袍",
+				"name": "Ghostwrithe",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Waxed Jacket",
+				"text": "幽暗之衣 打蠟外衣",
+				"name": "Gloomform",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Felt Cap",
+				"text": "金縷帽 毛氈便帽",
+				"name": "Goldrim",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rope Cuffs",
+				"text": "幽墓束縛 繩索腕帶",
+				"name": "Gravebind",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Vaal Cuirass",
+				"text": "貪婪之擁 瓦爾胸甲",
+				"name": "Greed's Embrace",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Brimmed Helm",
+				"text": "灰製 邊緣之盔",
+				"name": "Greymake",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Firm Bracers",
+				"text": "凜冬之握 穩固護腕",
+				"name": "Grip of Winter",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rusted Greathelm",
+				"text": "賓登之角 鏽蝕巨盔",
+				"name": "Horns of Bynden",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Shaman Mantle",
+				"text": "夢境軀殼 薩滿披肩",
+				"name": "Husk of Dreams",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Mail Vestments",
+				"text": "冰息 鎖甲法衣",
+				"name": "Icetomb",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sectioned Bracers",
+				"text": "遊手好閒 分段護腕",
+				"name": "Idle Hands",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Shabby Hood",
+				"text": "印斯茅斯 破舊兜帽",
+				"name": "Innsmouth",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Vagabond Armour",
+				"text": "鐵握 流浪者護甲",
+				"name": "Irongrasp",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Visored Helm",
+				"text": "鐵騎 假面之盔",
+				"name": "Ironride",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ringmail Gauntlets",
+				"text": "雅恩格利佩爾 環鎖護手",
+				"name": "Jarngreipr",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Linen Wraps",
+				"text": "掃興之人 麻布裹手",
+				"name": "Killjoy",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Full Plate",
+				"text": "皇家衛甲 連身鎧甲",
+				"name": "Kingsguard",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Jewelled Gloves",
+				"text": "奇多可之流 寶石手套",
+				"name": "Kitoko's Current",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hooded Mask",
+				"text": "共鳴之面 風帽之面",
+				"name": "Leer Cast",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rough Greaves",
+				"text": "帝國之靴 粗糙脛甲",
+				"name": "Legionstride",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Tempered Mitts",
+				"text": "意識之緣 淬鍊長手套",
+				"name": "Lochtonial Caress",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Straw Sandals",
+				"text": "閃爍步伐 乾草便鞋",
+				"name": "Luminous Pace",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rampart Tower Shield",
+				"text": "狼蛛 壁壘塔盾",
+				"name": "Lycosidae",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Fine Bracers",
+				"text": "馬雷葛蘿的血染手套 精良護腕",
+				"name": "Maligaro's Virtuosity",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Face Mask",
+				"text": "占血之面 護臉之面",
+				"name": "Mask of the Sanguimancer",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Feathered Tiara",
+				"text": "惡縫之面 羽毛頭冠",
+				"name": "Mask of the Stitched Demon",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pelage Targe",
+				"text": "服役功績 毛皮圓盾",
+				"name": "Merit of Service",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Covert Hood",
+				"text": "米立斯之妻 隱蔽兜帽",
+				"name": "Myris Uxor",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Bone Raiment",
+				"text": "亡者披肩 骸骨之衣",
+				"name": "Necromantle",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Suede Bracers",
+				"text": "北方之爪 麂皮護腕",
+				"name": "Northpaw",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Sigil Crest Shield",
+				"text": "橡誓者 符印紋章盾",
+				"name": "Oaksworn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stacked Sabatons",
+				"text": "歐伯恩的壁壘 疊層鎧靴",
+				"name": "Obern's Bastion",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Torn Gloves",
+				"text": "畫家的侍從 撕裂手套",
+				"name": "Painter's Servant",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Cloaked Mail",
+				"text": "草民之擁 斗篷鎖甲",
+				"name": "Pariah's Embrace",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gauze Wraps",
+				"text": "瘟疫之指 紗布裹手",
+				"name": "Plaguefinger",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hunting Shoes",
+				"text": "動力圖樣 狩獵輕鞋",
+				"name": "Powertread",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Keth Raiment",
+				"text": "祈雨禱言 凱斯之衣",
+				"name": "Prayers for Rain",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Serpentscale Coat",
+				"text": "夸特之帶 蛇鱗外套",
+				"name": "Quatl's Molt",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Smuggler Coat",
+				"text": "森林之后 走私者外套",
+				"name": "Queen of the Forest",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Lace Hood",
+				"text": "聖光哀痛 綁帶兜帽",
+				"name": "Radiant Grief",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Anchorite Garb",
+				"text": "紅焰導體 隱者裝束",
+				"name": "Redflare Conduit",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Omen Crest Shield",
+				"text": "烈炎之翼 預兆紋章盾",
+				"name": "Rise of the Phoenix",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Emblem Crest Shield",
+				"text": "薩費爾的智慧 徽印紋章盾",
+				"name": "Saffell's Frame",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Tonal Focus",
+				"text": "巨蛇教誨 音調法器",
+				"name": "Serpent's Lesson",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Aged Cuffs",
+				"text": "悲運之縛 陳舊腕帶",
+				"name": "Shackles of the Wretched",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Marabout Garb",
+				"text": "錫耶拉的遺產 修士裝束",
+				"name": "Sierran Inheritance",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Spined Bracers",
+				"text": "蝮吻 棘刺護腕",
+				"name": "Snakebite",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Votive Raiment",
+				"text": "特沙波卡爾之慾 還願之衣",
+				"name": "Tetzlapokal's Desire",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rogue Armour",
+				"text": "遺塚居民 盜賊護甲",
+				"name": "The Barrow Dweller",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hexer's Robe",
+				"text": "黑色之疑 咒術師長袍",
+				"name": "The Black Doubt",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Champion Cuirass",
+				"text": "堅銅戰罩 冠軍胸甲",
+				"name": "The Brass Dome",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Altar Robe",
+				"text": "血誓 祭壇長袍",
+				"name": "The Covenant",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wayfarer Jacket",
+				"text": "舞動幻影 旅人外衣",
+				"name": "The Dancing Mirage",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wicker Tiara",
+				"text": "吞噬之冠 枝條頭冠",
+				"name": "The Devouring Diadem",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crystal Focus",
+				"text": "永恆火花 水晶法器",
+				"name": "The Eternal Spark",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Hewn Mask",
+				"text": "聖潔面具 粗製之面",
+				"name": "The Hollow Mask",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Raider Plate",
+				"text": "永生者 俠客鎧甲",
+				"name": "The Immortan",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Bronze Greaves",
+				"text": "無盡之距 青銅脛甲",
+				"name": "The Infinite Pursuit",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Mail Sabatons",
+				"text": "漂泊騎士 鎖甲鎧靴",
+				"name": "The Knight-errant",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Scout's Vest",
+				"text": "疫鼠囚籠 斥侯背心",
+				"name": "The Rat Cage",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Cowled Helm",
+				"text": "微笑騎士 斗篷之盔",
+				"name": "The Smiling Knight",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Stone Tower Shield",
+				"text": "降伏 岩石塔盾",
+				"name": "The Surrender",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Solid Mask",
+				"text": "三龍戰紀 堅固之面",
+				"name": "The Three Dragons",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Tribal Mask",
+				"text": "謎容 部落之面",
+				"name": "The Vertex",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Shielded Helm",
+				"text": "惡劣騎士 庇護之盔",
+				"name": "The Vile Knight",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Effigial Tower Shield",
+				"text": "哀嚎之牆 靈像塔盾",
+				"name": "The Wailing Wall",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Woven Focus",
+				"text": "縫紉之光 編織法器",
+				"name": "Threaded Light",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Spired Greathelm",
+				"text": "顫慄之鋼 尖頂巨盔",
+				"name": "Thrillsteel",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Steeltoe Boots",
+				"text": "雷霆步伐 鐵趾長靴",
+				"name": "Thunderstep",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Maraketh Cuirass",
+				"text": "泰坦腐化重騎兵 馬拉克斯胸甲",
+				"name": "Titanrot Cataphract",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Trimmed Greaves",
+				"text": "踐踏之鞋 鑲邊脛甲",
+				"name": "Trampletoe",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Riveted Mitts",
+				"text": "樹木之指 鉚接長手套",
+				"name": "Treefingers",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Martyr Crown",
+				"text": "夜幕 殉難之冠",
+				"name": "Veil of the Night",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Beaded Circlet",
+				"text": "艾雅面紗 串珠頭環",
+				"name": "Visage of Ayah",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ironclad Vestments",
+				"text": "福爾的戰鎧 鐵甲法衣",
+				"name": "Voll's Protector",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Secured Leggings",
+				"text": "覆滅之兆 牢固護腿",
+				"name": "Wake of Destruction",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Steel Plate",
+				"text": "拉什敏的堅韌 堅鋼鎧甲",
+				"name": "Wandering Reliquary",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wrapped Sandals",
+				"text": "苦行之履 裹腳便鞋",
+				"name": "Wanderlust",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Feathered Sandals",
+				"text": "惡風足跡 羽毛便鞋",
+				"name": "Windscream",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rusted Greathelm",
+				"text": "凱林之翼 鏽蝕巨盔",
+				"name": "Wings of Caelyn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Silk Slippers",
+				"text": "迴光之跡 絲綢便鞋",
+				"name": "Wondertrap",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Painted Tower Shield",
+				"text": "狼之禍 彩繪塔盾",
+				"name": "Wulfsbane",
+				"flags": {
+					"unique": true
+				}
+			}
+		]
+	},
+	{
+		"id": "currency",
+		"label": "通貨",
+		"entries": [
+			{
+				"type": "Artificer's Orb",
+				"text": "工匠石"
+			},
+			{
+				"type": "Artificer's Shard",
+				"text": "工匠碎片"
+			},
+			{
+				"type": "Orb of Augmentation",
+				"text": "增幅石"
+			},
+			{
+				"type": "Exalted Orb",
+				"text": "崇高石"
+			},
+			{
+				"type": "Lesser Jeweller's Orb",
+				"text": "工匠石"
+			},
+			{
+				"type": "Greater Jeweller's Orb",
+				"text": "高階工匠石"
+			},
+			{
+				"type": "Perfect Jeweller's Orb",
+				"text": "完美工匠石"
+			},
+			{
+				"type": "Simulacrum Splinter",
+				"text": "幻像斷片"
+			},
+			{
+				"type": "Armourer's Scrap",
+				"text": "護甲片"
+			},
+			{
+				"type": "Breach Splinter",
+				"text": "裂痕裂片"
+			},
+			{
+				"type": "Vaal Orb",
+				"text": "瓦爾寶珠"
+			},
+			{
+				"type": "Essence of Battle",
+				"text": "戰鬥精髓"
+			},
+			{
+				"type": "Essence of the Infinite",
+				"text": "無限精髓"
+			},
+			{
+				"type": "Essence of Sorcery",
+				"text": "巫術精髓"
+			},
+			{
+				"type": "Essence of Ruin",
+				"text": "毀滅精髓"
+			},
+			{
+				"type": "Essence of Ice",
+				"text": "寒冰精髓"
+			},
+			{
+				"type": "Essence of Enhancement",
+				"text": "強化精髓"
+			},
+			{
+				"type": "Essence of Flames",
+				"text": "烈焰精髓"
+			},
+			{
+				"type": "Essence of the Body",
+				"text": "肉體精髓"
+			},
+			{
+				"type": "Essence of Electricity",
+				"text": "電能精髓"
+			},
+			{
+				"type": "Essence of the Mind",
+				"text": "心智精髓"
+			},
+			{
+				"type": "Essence of Torment",
+				"text": "折磨精髓"
+			},
+			{
+				"type": "Essence of Haste",
+				"text": "迅捷精髓"
+			},
+			{
+				"type": "Glassblower's Bauble",
+				"text": "玻璃彈珠"
+			},
+			{
+				"type": "Gemcutter's Prism",
+				"text": "寶石匠的稜鏡"
+			},
+			{
+				"type": "Greater Essence of Battle",
+				"text": "高階戰鬥精髓"
+			},
+			{
+				"type": "Greater Essence of the Infinite",
+				"text": "高階無限精髓"
+			},
+			{
+				"type": "Greater Essence of Sorcery",
+				"text": "高階巫術精髓"
+			},
+			{
+				"type": "Greater Essence of Ruin",
+				"text": "高階毀滅精髓"
+			},
+			{
+				"type": "Greater Essence of Ice",
+				"text": "高階寒冰精髓"
+			},
+			{
+				"type": "Greater Essence of Enhancement",
+				"text": "高階強化精髓"
+			},
+			{
+				"type": "Greater Essence of Flames",
+				"text": "高階烈焰精髓"
+			},
+			{
+				"type": "Greater Essence of the Body",
+				"text": "高階肉體精髓"
+			},
+			{
+				"type": "Greater Essence of Electricity",
+				"text": "高階電能精髓"
+			},
+			{
+				"type": "Greater Essence of the Mind",
+				"text": "高階心智精髓"
+			},
+			{
+				"type": "Greater Essence of Torment",
+				"text": "高階折磨精髓"
+			},
+			{
+				"type": "Greater Essence of Haste",
+				"text": "高階迅捷精髓"
+			},
+			{
+				"type": "Scroll of Wisdom",
+				"text": "知識卷軸"
+			},
+			{
+				"type": "Reaver Catalyst",
+				"text": "研磨的催化劑"
+			},
+			{
+				"type": "Adaptive Catalyst",
+				"text": "本質的催化劑"
+			},
+			{
+				"type": "Sibilant Catalyst",
+				"text": "充能的催化劑"
+			},
+			{
+				"type": "Chayula's Catalyst",
+				"text": "混沌催化劑"
+			},
+			{
+				"type": "Tul's Catalyst",
+				"text": "冰冷催化劑"
+			},
+			{
+				"type": "Carapace Catalyst",
+				"text": "冶鍊的催化劑"
+			},
+			{
+				"type": "Xoph's Catalyst",
+				"text": "火焰催化劑"
+			},
+			{
+				"type": "Flesh Catalyst",
+				"text": "生命催化劑"
+			},
+			{
+				"type": "Esh's Catalyst",
+				"text": "閃電催化劑"
+			},
+			{
+				"type": "Neural Catalyst",
+				"text": "魔力催化劑"
+			},
+			{
+				"type": "Uul-Netol's Catalyst",
+				"text": "物理催化劑"
+			},
+			{
+				"type": "Skittering Catalyst",
+				"text": "飛掠的催化劑"
+			},
+			{
+				"type": "Arcanist's Etcher",
+				"text": "奧術蝕刻師"
+			},
+			{
+				"type": "Divine Orb",
+				"text": "神聖石"
+			},
+			{
+				"type": "Exotic Coinage",
+				"text": "異域幣鑄"
+			},
+			{
+				"type": "Orb of Annulment",
+				"text": "無效石"
+			},
+			{
+				"type": "Chaos Orb",
+				"text": "混沌石"
+			},
+			{
+				"type": "Regal Orb",
+				"text": "富豪石"
+			},
+			{
+				"type": "Regal Shard",
+				"text": "富豪石碎片"
+			},
+			{
+				"type": "Orb of Chance",
+				"text": "機會石"
+			},
+			{
+				"type": "Chance Shard",
+				"text": "機率碎片"
+			},
+			{
+				"type": "Orb of Transmutation",
+				"text": "蛻變石"
+			},
+			{
+				"type": "Transmutation Shard",
+				"text": "蛻變石碎片"
+			},
+			{
+				"type": "Orb of Alchemy",
+				"text": "點金石"
+			},
+			{
+				"type": "Blacksmith's Whetstone",
+				"text": "磨刀石"
+			},
+			{
+				"type": "Distilled Ire",
+				"text": "精煉的憤怒"
+			},
+			{
+				"type": "Distilled Guilt",
+				"text": "精煉的罪孽"
+			},
+			{
+				"type": "Distilled Greed",
+				"text": "精煉的貪婪"
+			},
+			{
+				"type": "Distilled Paranoia",
+				"text": "精煉的偏執"
+			},
+			{
+				"type": "Distilled Envy",
+				"text": "精煉的忌妒"
+			},
+			{
+				"type": "Distilled Disgust",
+				"text": "精煉的厭惡"
+			},
+			{
+				"type": "Distilled Despair",
+				"text": "精煉的絕望"
+			},
+			{
+				"type": "Omen of Sinistral Alchemy",
+				"text": "左旋煉金之兆"
+			},
+			{
+				"type": "Omen of Dextral Alchemy",
+				"text": "右旋煉金之兆"
+			},
+			{
+				"type": "Omen of Amelioration",
+				"text": "改善之兆"
+			},
+			{
+				"type": "Omen of Sinistral Exaltation",
+				"text": "左旋提升之兆"
+			},
+			{
+				"type": "Omen of Dextral Exaltation",
+				"text": "右旋提升之兆"
+			},
+			{
+				"type": "Omen of Greater Exaltation",
+				"text": "大幅提升之兆"
+			},
+			{
+				"type": "Omen of Resurgence",
+				"text": "復興之兆"
+			},
+			{
+				"type": "Omen of Refreshment",
+				"text": "刷新之兆"
+			},
+			{
+				"type": "Omen of Sinistral Coronation",
+				"text": "左旋加冕之兆"
+			},
+			{
+				"type": "Omen of Dextral Coronation",
+				"text": "右旋加冕之兆"
+			},
+			{
+				"type": "Omen of Corruption",
+				"text": "腐化之兆"
+			},
+			{
+				"type": "Broken Circle Artifact",
+				"text": "破碎之環文物"
+			},
+			{
+				"type": "Black Scythe Artifact",
+				"text": "黑暗血鐮文物"
+			},
+			{
+				"type": "Order Artifact",
+				"text": "秩序文物"
+			},
+			{
+				"type": "Sun Artifact",
+				"text": "豔陽文物"
+			},
+			{
+				"type": "Vision Rune",
+				"text": "遠見符文"
+			},
+			{
+				"type": "Glacial Rune",
+				"text": "冰川符文"
+			},
+			{
+				"type": "Iron Rune",
+				"text": "鍛鐵符文"
+			},
+			{
+				"type": "Desert Rune",
+				"text": "沙漠符文"
+			},
+			{
+				"type": "Body Rune",
+				"text": "肉體符文"
+			},
+			{
+				"type": "Rebirth Rune",
+				"text": "重生符文"
+			},
+			{
+				"type": "Storm Rune",
+				"text": "暴風符文"
+			},
+			{
+				"type": "Mind Rune",
+				"text": "心靈符文"
+			},
+			{
+				"type": "Inspiration Rune",
+				"text": "啟發符文"
+			},
+			{
+				"type": "Stone Rune",
+				"text": "岩石符文"
+			},
+			{
+				"type": "Soul Core of Opiloti",
+				"text": "歐派理堤靈魂核心"
+			},
+			{
+				"type": "Soul Core of Tacati",
+				"text": "特卡蒂靈魂核心"
+			},
+			{
+				"type": "Soul Core of Ticaba",
+				"text": "堤卡巴靈魂核心"
+			},
+			{
+				"type": "Soul Core of Cholotl",
+				"text": "敏捷靈魂核心"
+			},
+			{
+				"type": "Soul Core of Topotante",
+				"text": "塔普塔特靈魂核心"
+			},
+			{
+				"type": "Soul Core of Citaqualotl",
+				"text": "希特克拉多靈魂核心"
+			},
+			{
+				"type": "Soul Core of Tzamoto",
+				"text": "薩摩特靈魂核心"
+			},
+			{
+				"type": "Soul Core of Puhuarte",
+				"text": "普希瓦爾靈魂核心"
+			},
+			{
+				"type": "Soul Core of Zantipi",
+				"text": "智慧靈魂核心"
+			},
+			{
+				"type": "Soul Core of Azcapa",
+				"text": "艾斯卡巴靈魂核心"
+			},
+			{
+				"type": "Soul Core of Jiquani",
+				"text": "吉卡尼靈魂核心"
+			},
+			{
+				"type": "Soul Core of Zalatl",
+				"text": "札拉提靈魂核心"
+			},
+			{
+				"type": "Soul Core of Xopec",
+				"text": "柔派克靈魂核心"
+			},
+			{
+				"type": "Soul Core of Quipolatl",
+				"text": "克特帕托靈魂核心"
+			},
+			{
+				"type": "Soul Core of Atmohua",
+				"text": "力量靈魂核心"
+			}
+		]
+	},
+	{
+		"id": "flask",
+		"label": "藥劑",
+		"entries": [
+			{
+				"type": "Thawing Charm",
+				"text": "Thawing CharmThawing Charm解凍護符"
+			},
+			{
+				"type": "Topaz Charm",
+				"text": "Topaz Charm黃玉護符"
+			},
+			{
+				"type": "Amethyst Charm",
+				"text": "Amethyst Charm紫晶護符"
+			},
+			{
+				"type": "Golden Charm",
+				"text": "Golden Charm黃金護符"
+			},
+			{
+				"type": "Staunching Charm",
+				"text": "Staunching Charm止血護符"
+			},
+			{
+				"type": "Antidote Charm",
+				"text": "Antidote Charm解毒護符"
+			},
+			{
+				"type": "Dousing Charm",
+				"text": "Dousing CharmDousing Charm滅火護符"
+			},
+			{
+				"type": "Grounding Charm",
+				"text": "Grounding Charm接地護符"
+			},
+			{
+				"type": "Stone Charm",
+				"text": "Stone Charm岩石護符"
+			},
+			{
+				"type": "Silver Charm",
+				"text": "Silver Charm白銀護符"
+			},
+			{
+				"type": "Ruby Charm",
+				"text": "Ruby Charm紅玉護符"
+			},
+			{
+				"type": "Sapphire Charm",
+				"text": "Sapphire Charm藍玉護符"
+			},
+			{
+				"type": "Lesser Life Flask",
+				"text": "低階生命藥劑"
+			},
+			{
+				"type": "Medium Life Flask",
+				"text": "中型生命藥劑"
+			},
+			{
+				"type": "Greater Life Flask",
+				"text": "良質生命藥劑"
+			},
+			{
+				"type": "Grand Life Flask",
+				"text": "優質生命藥劑"
+			},
+			{
+				"type": "Giant Life Flask",
+				"text": "巨型生命藥劑"
+			},
+			{
+				"type": "Colossal Life Flask",
+				"text": "高階生命藥劑"
+			},
+			{
+				"type": "Gargantuan Life Flask",
+				"text": "巨大生命藥劑"
+			},
+			{
+				"type": "Transcendent Life Flask",
+				"text": "卓越生命藥劑"
+			},
+			{
+				"type": "Ultimate Life Flask",
+				"text": "終極生命藥劑"
+			},
+			{
+				"type": "Lesser Mana Flask",
+				"text": "低階魔力藥劑"
+			},
+			{
+				"type": "Medium Mana Flask",
+				"text": "中型魔力藥劑"
+			},
+			{
+				"type": "Greater Mana Flask",
+				"text": "良質魔力藥劑"
+			},
+			{
+				"type": "Grand Mana Flask",
+				"text": "優質魔力藥劑"
+			},
+			{
+				"type": "Giant Mana Flask",
+				"text": "巨型魔力藥劑"
+			},
+			{
+				"type": "Colossal Mana Flask",
+				"text": "高階魔力藥劑"
+			},
+			{
+				"type": "Gargantuan Mana Flask",
+				"text": "巨大魔力藥劑"
+			},
+			{
+				"type": "Transcendent Mana Flask",
+				"text": "卓越魔力藥劑"
+			},
+			{
+				"type": "Ultimate Mana Flask",
+				"text": "終極魔力藥劑"
+			}
+		]
+	},
+	{
+		"id": "gem",
+		"label": "技能寶石",
+		"entries": [
+			{
+				"type": "Alchemist's Boon",
+				"text": "煉金師恩惠"
+			},
+			{
+				"type": "Archmage",
+				"text": "大法師"
+			},
+			{
+				"type": "Armour Piercing Rounds",
+				"text": "穿甲彈藥"
+			},
+			{
+				"type": "Attrition",
+				"text": "損耗"
+			},
+			{
+				"type": "Berserk",
+				"text": "狂戰士"
+			},
+			{
+				"type": "Blink",
+				"text": "閃現"
+			},
+			{
+				"type": "Bone Cage",
+				"text": "骨牢"
+			},
+			{
+				"type": "Bonestorm",
+				"text": "骨之風暴"
+			},
+			{
+				"type": "Charge Infusion",
+				"text": "充能灌注"
+			},
+			{
+				"type": "Cluster Grenade",
+				"text": "集束擲彈"
+			},
+			{
+				"type": "Cold Snap",
+				"text": "霜暴"
+			},
+			{
+				"type": "Combat Frenzy",
+				"text": "戰鬥狂怒"
+			},
+			{
+				"type": "Dark Effigy",
+				"text": "黑暗雕像"
+			},
+			{
+				"type": "Defiance Banner",
+				"text": "反抗之旗"
+			},
+			{
+				"type": "Detonating Arrow",
+				"text": "爆破箭矢"
+			},
+			{
+				"type": "Dread Banner",
+				"text": "恐懼之旗"
+			},
+			{
+				"type": "Electrocuting Arrow",
+				"text": "電極箭矢"
+			},
+			{
+				"type": "Elemental Conflux",
+				"text": "元素匯流"
+			},
+			{
+				"type": "Elemental Invocation",
+				"text": "元素祈願"
+			},
+			{
+				"type": "Emergency Reload",
+				"text": "緊急裝填"
+			},
+			{
+				"type": "Explosive Grenade",
+				"text": "爆炸擲彈"
+			},
+			{
+				"type": "Explosive Shot",
+				"text": "爆炸矢"
+			},
+			{
+				"type": "Fireball",
+				"text": "火球"
+			},
+			{
+				"type": "Flash Grenade",
+				"text": "閃光擲彈"
+			},
+			{
+				"type": "Fragmentation Rounds",
+				"text": "分裂彈藥"
+			},
+			{
+				"type": "Freezing Mark",
+				"text": "冰凍印記"
+			},
+			{
+				"type": "Freezing Salvo",
+				"text": "凍結齊射"
+			},
+			{
+				"type": "Frozen Locus",
+				"text": "寒冰軌跡"
+			},
+			{
+				"type": "Galvanic Shards",
+				"text": "電能碎片"
+			},
+			{
+				"type": "Gas Arrow",
+				"text": "毒氣箭矢"
+			},
+			{
+				"type": "Gas Grenade",
+				"text": "毒氣擲彈"
+			},
+			{
+				"type": "Gathering Storm",
+				"text": "風暴凝聚"
+			},
+			{
+				"type": "Glacial Bolt",
+				"text": "冰川弩箭"
+			},
+			{
+				"type": "Grim Feast",
+				"text": "冷酷之宴"
+			},
+			{
+				"type": "Hailstorm Rounds",
+				"text": "冰雹彈藥"
+			},
+			{
+				"type": "Hammer of the Gods",
+				"text": "眾神之錘"
+			},
+			{
+				"type": "Hand of Chayula",
+				"text": "夏烏拉之手"
+			},
+			{
+				"type": "Herald of Plague",
+				"text": "瘟疫之捷"
+			},
+			{
+				"type": "High Velocity Rounds",
+				"text": "高速彈藥"
+			},
+			{
+				"type": "Ice Shards",
+				"text": "寒冰碎片"
+			},
+			{
+				"type": "Ice Shot",
+				"text": "冰霜射擊"
+			},
+			{
+				"type": "Incendiary Shot",
+				"text": "烈焰矢"
+			},
+			{
+				"type": "Lightning Rod",
+				"text": "雷霆之杖"
+			},
+			{
+				"type": "Magma Barrier",
+				"text": "熔岩屏障"
+			},
+			{
+				"type": "Magnetic Salvo",
+				"text": "電磁齊射"
+			},
+			{
+				"type": "Mana Remnants",
+				"text": "魔力痕跡"
+			},
+			{
+				"type": "Mantra of Destruction",
+				"text": "毀滅神咒"
+			},
+			{
+				"type": "Molten Blast",
+				"text": "熔火爆破"
+			},
+			{
+				"type": "Oil Grenade",
+				"text": "燃油擲彈"
+			},
+			{
+				"type": "Overwhelming Presence",
+				"text": "壓倒性的存在"
+			},
+			{
+				"type": "Perfect Strike",
+				"text": "完美打擊"
+			},
+			{
+				"type": "Permafrost Bolts",
+				"text": "永凍弩箭"
+			},
+			{
+				"type": "Plasma Blast",
+				"text": "電漿強擊矢"
+			},
+			{
+				"type": "Poisonburst Arrow",
+				"text": "毒爆箭矢"
+			},
+			{
+				"type": "Profane Ritual",
+				"text": "粗陋祭祀"
+			},
+			{
+				"type": "Raging Spirits",
+				"text": "怒炎之靈"
+			},
+			{
+				"type": "Rapid Shot",
+				"text": "疾射"
+			},
+			{
+				"type": "Reaper's Invocation",
+				"text": "收割者的祈願"
+			},
+			{
+				"type": "Resonating Shield",
+				"text": "共鳴之盾"
+			},
+			{
+				"type": "Sacrifice"
+			},
+			{
+				"type": "Scavenged Plating",
+				"text": "拾荒者護板"
+			},
+			{
+				"type": "Shard Scavenger",
+				"text": "碎片清除者"
+			},
+			{
+				"type": "Shield Wall",
+				"text": "盾牆"
+			},
+			{
+				"type": "Shockburst Rounds",
+				"text": "震爆彈藥"
+			},
+			{
+				"type": "Shockchain Arrow",
+				"text": "電鍊箭矢"
+			},
+			{
+				"type": "Siege Cascade",
+				"text": "圍城爆發"
+			},
+			{
+				"type": "Siphoning Strike",
+				"text": "虹吸打擊"
+			},
+			{
+				"type": "Snipe",
+				"text": "狙擊"
+			},
+			{
+				"type": "Solar Orb",
+				"text": "日耀球"
+			},
+			{
+				"type": "Soul Offering",
+				"text": "靈魂獻祭"
+			},
+			{
+				"type": "Stampede",
+				"text": "踐踏"
+			},
+			{
+				"type": "Stormblast Bolts",
+				"text": "雷暴彈藥"
+			},
+			{
+				"type": "Stormcaller Arrow",
+				"text": "風暴呼喚箭矢"
+			},
+			{
+				"type": "Storm Wave",
+				"text": "風暴浪湧"
+			},
+			{
+				"type": "Tempest Bell",
+				"text": "風暴之鐘"
+			},
+			{
+				"type": "Time of Need",
+				"text": "緊急時刻"
+			},
+			{
+				"type": "Tornado Shot",
+				"text": "龍捲射擊"
+			},
+			{
+				"type": "Toxic Growth",
+				"text": "毒素植栽"
+			},
+			{
+				"type": "Unearth",
+				"text": "屍術矢"
+			},
+			{
+				"type": "Vaulting Impact",
+				"text": "跳躍衝擊"
+			},
+			{
+				"type": "Vine Arrow",
+				"text": "藤蔓箭矢"
+			},
+			{
+				"type": "Voltaic Mark",
+				"text": "電流印記"
+			},
+			{
+				"type": "War Banner",
+				"text": "征戰之旗"
+			},
+			{
+				"type": "Wind Dancer",
+				"text": "疾風之舞"
+			},
+			{
+				"type": "Withering Presence",
+				"text": "凋零光環"
+			},
+			{
+				"type": "Uncut Spirit Gem",
+				"text": "精魂寶石"
+			},
+			{
+				"type": "Ancestral Warrior Totem",
+				"text": "先祖戰士圖騰"
+			},
+			{
+				"type": "Arc",
+				"text": "電弧"
+			},
+			{
+				"type": "Arctic Armour",
+				"text": "極地裝甲"
+			},
+			{
+				"type": "Armour Breaker",
+				"text": "護甲碎擊"
+			},
+			{
+				"type": "Artillery Ballista",
+				"text": "火砲砲塔"
+			},
+			{
+				"type": "Ball Lightning",
+				"text": "天雷之珠"
+			},
+			{
+				"type": "Barrage",
+				"text": "彈幕"
+			},
+			{
+				"type": "Barrier Invocation",
+				"text": "屏障祈願"
+			},
+			{
+				"type": "Blasphemy",
+				"text": "瀆神"
+			},
+			{
+				"type": "Bone Offering",
+				"text": "骸骨奉獻"
+			},
+			{
+				"type": "Boneshatter",
+				"text": "碎骨"
+			},
+			{
+				"type": "Cast on Critical",
+				"text": "暴擊時施放"
+			},
+			{
+				"type": "Cast on Freeze",
+				"text": "冰凍時施放"
+			},
+			{
+				"type": "Cast on Ignite",
+				"text": "點燃時施放"
+			},
+			{
+				"type": "Cast on Minion Death",
+				"text": "召喚物死亡時施放"
+			},
+			{
+				"type": "Cast on Shock",
+				"text": "感電時施放"
+			},
+			{
+				"type": "Charged Staff",
+				"text": "充能長杖"
+			},
+			{
+				"type": "Comet",
+				"text": "彗星"
+			},
+			{
+				"type": "Conductivity",
+				"text": "導電"
+			},
+			{
+				"type": "Contagion",
+				"text": "瘟疫"
+			},
+			{
+				"type": "Despair",
+				"text": "絕望"
+			},
+			{
+				"type": "Detonate Dead",
+				"text": "屍體爆破"
+			},
+			{
+				"type": "Earthquake",
+				"text": "震地"
+			},
+			{
+				"type": "Earthshatter",
+				"text": "碎地重擊"
+			},
+			{
+				"type": "Ember Fusillade",
+				"text": "餘燼齊射"
+			},
+			{
+				"type": "Enfeeble",
+				"text": "衰弱"
+			},
+			{
+				"type": "Escape Shot",
+				"text": "逃脫之矢"
+			},
+			{
+				"type": "Essence Drain",
+				"text": "靈魂吸取"
+			},
+			{
+				"type": "Eye of Winter",
+				"text": "凜冬之眼"
+			},
+			{
+				"type": "Falling Thunder",
+				"text": "崩雷鳴"
+			},
+			{
+				"type": "Firestorm",
+				"text": "烈炎風暴"
+			},
+			{
+				"type": "Flameblast",
+				"text": "烈焰爆破"
+			},
+			{
+				"type": "Flame Wall",
+				"text": "烈焰之牆"
+			},
+			{
+				"type": "Flammability",
+				"text": "易燃"
+			},
+			{
+				"type": "Flicker Strike",
+				"text": "閃現打擊"
+			},
+			{
+				"type": "Frostbolt",
+				"text": "寒冰彈"
+			},
+			{
+				"type": "Frost Bomb",
+				"text": "寒霜爆"
+			},
+			{
+				"type": "Frost Wall",
+				"text": "冰牆"
+			},
+			{
+				"type": "Ghost Dance",
+				"text": "鬼魂之舞"
+			},
+			{
+				"type": "Glacial Cascade",
+				"text": "冰川之刺"
+			},
+			{
+				"type": "Herald of Ash",
+				"text": "灰燼之捷"
+			},
+			{
+				"type": "Herald of Ice",
+				"text": "冰霜之捷"
+			},
+			{
+				"type": "Herald of Thunder",
+				"text": "閃電之捷"
+			},
+			{
+				"type": "Hexblast",
+				"text": "咒術枯萎"
+			},
+			{
+				"type": "Hypothermia",
+				"text": "急凍"
+			},
+			{
+				"type": "Ice Nova",
+				"text": "冰霜新星"
+			},
+			{
+				"type": "Ice Strike",
+				"text": "冰擊"
+			},
+			{
+				"type": "Incinerate",
+				"text": "燒毀"
+			},
+			{
+				"type": "Infernal Cry",
+				"text": "煉獄戰吼"
+			},
+			{
+				"type": "Killing Palm",
+				"text": "摧命之掌"
+			},
+			{
+				"type": "Leap Slam",
+				"text": "躍擊"
+			},
+			{
+				"type": "Lightning Arrow",
+				"text": "閃電箭矢"
+			},
+			{
+				"type": "Lightning Conduit",
+				"text": "導雷"
+			},
+			{
+				"type": "Lightning Warp",
+				"text": "閃電傳送"
+			},
+			{
+				"type": "Lingering Illusion",
+				"text": "殘留幻象"
+			},
+			{
+				"type": "Mana Tempest",
+				"text": "魔力暴風"
+			},
+			{
+				"type": "Orb of Storms",
+				"text": "風暴漩渦"
+			},
+			{
+				"type": "Pain Offering",
+				"text": "劇痛奉獻"
+			},
+			{
+				"type": "Plague Bearer",
+				"text": "病疫之難"
+			},
+			{
+				"type": "Rain of Arrows",
+				"text": "箭雨"
+			},
+			{
+				"type": "Raise Zombie",
+				"text": "殭屍復甦"
+			},
+			{
+				"type": "Ripwire Ballista",
+				"text": "撕裂砲塔"
+			},
+			{
+				"type": "Rolling Slam",
+				"text": "翻騰重擊"
+			},
+			{
+				"type": "Seismic Cry",
+				"text": "裂地戰吼"
+			},
+			{
+				"type": "Shattering Palm",
+				"text": "粉碎之掌"
+			},
+			{
+				"type": "Shield Charge",
+				"text": "重盾衝鋒"
+			},
+			{
+				"type": "Shockwave Totem",
+				"text": "震波圖騰"
+			},
+			{
+				"type": "Skeletal Arsonist",
+				"text": "骷髏縱火者"
+			},
+			{
+				"type": "Skeletal Brute",
+				"text": "骷髏巨獸"
+			},
+			{
+				"type": "Skeletal Cleric",
+				"text": "骷髏牧師"
+			},
+			{
+				"type": "Skeletal Frost Mage",
+				"text": "骷髏霜寒法師"
+			},
+			{
+				"type": "Skeletal Reaver",
+				"text": "骷髏掠奪者"
+			},
+			{
+				"type": "Skeletal Sniper",
+				"text": "骷髏狙擊手"
+			},
+			{
+				"type": "Skeletal Storm Mage",
+				"text": "骷髏風暴法師"
+			},
+			{
+				"type": "Skeletal Warrior",
+				"text": "骷髏戰士"
+			},
+			{
+				"type": "Sniper's Mark",
+				"text": "狙擊者印記"
+			},
+			{
+				"type": "Spark",
+				"text": "電球"
+			},
+			{
+				"type": "Spiral Volley",
+				"text": "螺旋之弦"
+			},
+			{
+				"type": "Staggering Palm",
+				"text": "撼敵之掌"
+			},
+			{
+				"type": "Sunder",
+				"text": "大地震擊"
+			},
+			{
+				"type": "Supercharged Slam",
+				"text": "超載重擊"
+			},
+			{
+				"type": "Tempest Flurry",
+				"text": "暴風亂舞"
+			},
+			{
+				"type": "Temporal Chains",
+				"text": "時空鎖鏈"
+			},
+			{
+				"type": "Uncut Skill Gem",
+				"text": "技能寶石"
+			},
+			{
+				"type": "Volcanic Fissure",
+				"text": "炎火脈動"
+			},
+			{
+				"type": "Voltaic Grenade",
+				"text": "電流擲彈"
+			},
+			{
+				"type": "Vulnerability",
+				"text": "脆弱"
+			},
+			{
+				"type": "Wave of Frost",
+				"text": "寒冰波"
+			},
+			{
+				"type": "Whirling Assault",
+				"text": "迴旋擊"
+			},
+			{
+				"type": "Wind Blast",
+				"text": "破風爆裂"
+			},
+			{
+				"type": "Acceleration",
+				"text": "投射物加速"
+			},
+			{
+				"type": "Aftershock",
+				"text": "餘震"
+			},
+			{
+				"type": "Ambush",
+				"text": "伏擊"
+			},
+			{
+				"type": "Arcane Surge",
+				"text": "秘能波動"
+			},
+			{
+				"type": "Arcane Tempo",
+				"text": "快速施放"
+			},
+			{
+				"type": "Behead",
+				"text": "斬首"
+			},
+			{
+				"type": "Biting Frost",
+				"text": "刺骨冰霜"
+			},
+			{
+				"type": "Blind",
+				"text": "致盲"
+			},
+			{
+				"type": "Bloodlust",
+				"text": "嗜血"
+			},
+			{
+				"type": "Bludgeon",
+				"text": "擊退"
+			},
+			{
+				"type": "Break Posture",
+				"text": "破壞姿態"
+			},
+			{
+				"type": "Brutality",
+				"text": "野性殘暴"
+			},
+			{
+				"type": "Bullseye",
+				"text": "額外命中"
+			},
+			{
+				"type": "Burning Inscription",
+				"text": "爆燃銘文"
+			},
+			{
+				"type": "Bursting Plague",
+				"text": "爆裂瘟疫"
+			},
+			{
+				"type": "Cannibalism",
+				"text": "食人輔助"
+			},
+			{
+				"type": "Chain",
+				"text": "連鎖"
+			},
+			{
+				"type": "Chaos Infusion",
+				"text": "附加混沌傷害"
+			},
+			{
+				"type": "Chaos Mastery",
+				"text": "混沌專精"
+			},
+			{
+				"type": "Clarity",
+				"text": "清晰輔助"
+			},
+			{
+				"type": "Close Combat",
+				"text": "近身戰"
+			},
+			{
+				"type": "Cold Exposure",
+				"text": "冰冷曝曬"
+			},
+			{
+				"type": "Cold Infusion",
+				"text": "附加冰冷傷害"
+			},
+			{
+				"type": "Cold Mastery",
+				"text": "冰冷專精"
+			},
+			{
+				"type": "Cold Penetration",
+				"text": "冰冷穿透"
+			},
+			{
+				"type": "Combo Finisher",
+				"text": "連擊終結輔助"
+			},
+			{
+				"type": "Comorbidity",
+				"text": "多重烈毒"
+			},
+			{
+				"type": "Concentrated Effect",
+				"text": "集中效應"
+			},
+			{
+				"type": "Conduction",
+				"text": "傳導"
+			},
+			{
+				"type": "Controlled Destruction",
+				"text": "精準破壞"
+			},
+			{
+				"type": "Corrosion",
+				"text": "衰敗"
+			},
+			{
+				"type": "Corrupting Cry",
+				"text": "汙染戰吼"
+			},
+			{
+				"type": "Coursing Current",
+				"text": "奔竄電流"
+			},
+			{
+				"type": "Crescendo",
+				"text": "逐漸增強"
+			},
+			{
+				"type": "Deadly Poison",
+				"text": "致命毒藥"
+			},
+			{
+				"type": "Deceleration",
+				"text": "投射物減速"
+			},
+			{
+				"type": "Deep Cuts",
+				"text": "深度切割"
+			},
+			{
+				"type": "Deep Freeze",
+				"text": "深度冰凍"
+			},
+			{
+				"type": "Demolisher",
+				"text": "更多護甲破壞"
+			},
+			{
+				"type": "Despoiler",
+				"text": "地面效果持續時間"
+			},
+			{
+				"type": "Devastate",
+				"text": "蹂躪"
+			},
+			{
+				"type": "Discombobulate",
+				"text": "目眩"
+			},
+			{
+				"type": "Drain Ailments",
+				"text": "汲取異常狀態"
+			},
+			{
+				"type": "Electrocute",
+				"text": "電刑"
+			},
+			{
+				"type": "Elemental Army",
+				"text": "元素軍隊"
+			},
+			{
+				"type": "Elemental Discharge",
+				"text": "元素解放"
+			},
+			{
+				"type": "Elemental Focus",
+				"text": "元素專注"
+			},
+			{
+				"type": "Encumbrance",
+				"text": "負擔輔助"
+			},
+			{
+				"type": "Energy Barrier",
+				"text": "能量屏障"
+			},
+			{
+				"type": "Enraged Warcry",
+				"text": "激怒戰吼"
+			},
+			{
+				"type": "Envenom",
+				"text": "中毒機率"
+			},
+			{
+				"type": "Eternal Flame",
+				"text": "永恆烈焰"
+			},
+			{
+				"type": "Execute",
+				"text": "處刑"
+			},
+			{
+				"type": "Exploit Weakness",
+				"text": "攻其之弱"
+			},
+			{
+				"type": "Fast Forward",
+				"text": "更少持續時間"
+			},
+			{
+				"type": "Feeding Frenzy",
+				"text": "豢養狂熱"
+			},
+			{
+				"type": "Fiery Death",
+				"text": "火熱死寂"
+			},
+			{
+				"type": "Fire Exposure",
+				"text": "火焰曝曬"
+			},
+			{
+				"type": "Fire Infusion",
+				"text": "附加火焰傷害"
+			},
+			{
+				"type": "Fire Mastery",
+				"text": "火焰專精"
+			},
+			{
+				"type": "Fire Penetration",
+				"text": "火焰穿透"
+			},
+			{
+				"type": "Fist of War",
+				"text": "拳霸"
+			},
+			{
+				"type": "Font of Blood",
+				"text": "鮮血器皿"
+			},
+			{
+				"type": "Font of Mana",
+				"text": "魔力器皿"
+			},
+			{
+				"type": "Font of Rage",
+				"text": "盛怒器皿"
+			},
+			{
+				"type": "Fork",
+				"text": "分岔"
+			},
+			{
+				"type": "Fortress",
+				"text": "堡壘"
+			},
+			{
+				"type": "Frostfire",
+				"text": "霜火"
+			},
+			{
+				"type": "Frost Nexus",
+				"text": "冰霜核心"
+			},
+			{
+				"type": "Glaciation",
+				"text": "急凍化"
+			},
+			{
+				"type": "Heavy Swing",
+				"text": "近戰物理傷害"
+			},
+			{
+				"type": "Heightened Curse",
+				"text": "增強詛咒"
+			},
+			{
+				"type": "Herbalism",
+				"text": "藥草學輔助"
+			},
+			{
+				"type": "Hex Bloom",
+				"text": "咒術綻放"
+			},
+			{
+				"type": "Hourglass",
+				"text": "沙漏"
+			},
+			{
+				"type": "Ice Bite",
+				"text": "霜咬"
+			},
+			{
+				"type": "Ignition",
+				"text": "點火"
+			},
+			{
+				"type": "Immolate",
+				"text": "犧牲"
+			},
+			{
+				"type": "Impact Shockwave",
+				"text": "衝擊震波"
+			},
+			{
+				"type": "Impending Doom",
+				"text": "末日厄運"
+			},
+			{
+				"type": "Inevitable Critical",
+				"text": "必定暴擊"
+			},
+			{
+				"type": "Infernal Legion",
+				"text": "煉獄軍團"
+			},
+			{
+				"type": "Ingenuity",
+				"text": "減少冷卻時間"
+			},
+			{
+				"type": "Inspiration",
+				"text": "啟發"
+			},
+			{
+				"type": "Jagged Ground",
+				"text": "鋸齒地面"
+			},
+			{
+				"type": "Lacerate",
+				"text": "流血機率"
+			},
+			{
+				"type": "Lasting Shock",
+				"text": "持續感電"
+			},
+			{
+				"type": "Life Drain",
+				"text": "生命吸取"
+			},
+			{
+				"type": "Lifetap",
+				"text": "活栓"
+			},
+			{
+				"type": "Life Thief",
+				"text": "生命偷取"
+			},
+			{
+				"type": "Lightning Exposure",
+				"text": "閃電曝曬"
+			},
+			{
+				"type": "Lightning Infusion",
+				"text": "附加閃電傷害"
+			},
+			{
+				"type": "Lightning Mastery",
+				"text": "閃電專精"
+			},
+			{
+				"type": "Lightning Penetration",
+				"text": "閃電穿透"
+			},
+			{
+				"type": "Lockdown",
+				"text": "封鎖"
+			},
+			{
+				"type": "Longshot",
+				"text": "遠程戰鬥"
+			},
+			{
+				"type": "Magnified Effect",
+				"text": "影響範圍"
+			},
+			{
+				"type": "Maim",
+				"text": "癱瘓"
+			},
+			{
+				"type": "Mana Bounty",
+				"text": "耐久魔力"
+			},
+			{
+				"type": "Mana Flare",
+				"text": "魔力閃焰"
+			},
+			{
+				"type": "Martial Tempo",
+				"text": "快速攻擊"
+			},
+			{
+				"type": "Meat Shield",
+				"text": "肉盾"
+			},
+			{
+				"type": "Minion Mastery",
+				"text": "召喚物專精"
+			},
+			{
+				"type": "Mobility",
+				"text": "機動性"
+			},
+			{
+				"type": "Momentum",
+				"text": "氣勢"
+			},
+			{
+				"type": "Murderous Intent",
+				"text": "強化撲殺"
+			},
+			{
+				"type": "Neural Overload",
+				"text": "神經超載"
+			},
+			{
+				"type": "Overabundance",
+				"text": "增加上限"
+			},
+			{
+				"type": "Overcharge",
+				"text": "強化聚能"
+			},
+			{
+				"type": "Overpower",
+				"text": "壓倒性力量"
+			},
+			{
+				"type": "Perpetual Charge",
+				"text": "永恆充能"
+			},
+			{
+				"type": "Persistence",
+				"text": "更多持續時間"
+			},
+			{
+				"type": "Physical Mastery",
+				"text": "物理專精"
+			},
+			{
+				"type": "Pierce",
+				"text": "穿透"
+			},
+			{
+				"type": "Pin",
+				"text": "標記"
+			},
+			{
+				"type": "Precision",
+				"text": "精準輔助"
+			},
+			{
+				"type": "Premeditation",
+				"text": "強化傷害"
+			},
+			{
+				"type": "Primal Armament",
+				"text": "武器元素傷害"
+			},
+			{
+				"type": "Profusion",
+				"text": "多重充能"
+			},
+			{
+				"type": "Rage",
+				"text": "盛怒"
+			},
+			{
+				"type": "Rising Tempest",
+				"text": "暴風步調"
+			},
+			{
+				"type": "Ruthless",
+				"text": "無情"
+			},
+			{
+				"type": "Scattershot",
+				"text": "多重投射物"
+			},
+			{
+				"type": "Searing Flame",
+				"text": "燒灼烈焰"
+			},
+			{
+				"type": "Second Wind",
+				"text": "恢復"
+			},
+			{
+				"type": "Shock Siphon",
+				"text": "電擊虹吸"
+			},
+			{
+				"type": "Soul Drain",
+				"text": "靈魂吸取"
+			},
+			{
+				"type": "Soul Thief",
+				"text": "魔力偷取"
+			},
+			{
+				"type": "Spell Echo",
+				"text": "法術迴響"
+			},
+			{
+				"type": "Splinter",
+				"text": "碎骨"
+			},
+			{
+				"type": "Stormfire",
+				"text": "烈風暴"
+			},
+			{
+				"type": "Supercritical",
+				"text": "暴擊傷害"
+			},
+			{
+				"type": "Unbreakable",
+				"text": "堅不可破"
+			},
+			{
+				"type": "Uncut Support Gem",
+				"text": "輔助寶石"
+			},
+			{
+				"type": "Unleash",
+				"text": "釋放"
+			},
+			{
+				"type": "Vitality",
+				"text": "活力輔助"
+			},
+			{
+				"type": "Wildfire",
+				"text": "燐火"
+			},
+			{
+				"type": "Window of Opportunity",
+				"text": "機會之窗"
+			},
+			{
+				"type": "Wind Wave",
+				"text": "疾風之波"
+			},
+			{
+				"type": "Withering Touch",
+				"text": "凋零之觸"
+			},
+			{
+				"type": "Ablation",
+				"text": "消融"
+			},
+			{
+				"type": "Ammo Conservation",
+				"text": "彈藥保存"
+			},
+			{
+				"type": "Ancestral Urgency",
+				"text": "先祖執著"
+			},
+			{
+				"type": "Armour Explosion",
+				"text": "護甲爆破"
+			},
+			{
+				"type": "Astral Projection",
+				"text": "星空投影"
+			},
+			{
+				"type": "Auto Reload",
+				"text": "自動裝填"
+			},
+			{
+				"type": "Break Endurance",
+				"text": "打破忍耐"
+			},
+			{
+				"type": "Capacitor",
+				"text": "電容"
+			},
+			{
+				"type": "Chaotic Freeze",
+				"text": "混沌冰凍"
+			},
+			{
+				"type": "Considered Casting",
+				"text": "細思施法"
+			},
+			{
+				"type": "Corpse Conservation",
+				"text": "屍體保存"
+			},
+			{
+				"type": "Culling Strike",
+				"text": "撲殺"
+			},
+			{
+				"type": "Culmination",
+				"text": "頂點"
+			},
+			{
+				"type": "Cursed Ground",
+				"text": "詛咒地面"
+			},
+			{
+				"type": "Danse Macabre",
+				"text": "骷髏之舞"
+			},
+			{
+				"type": "Dazing Cry",
+				"text": "目眩戰吼"
+			},
+			{
+				"type": "Decaying Hex",
+				"text": "腐朽咒術"
+			},
+			{
+				"type": "Double Barrel",
+				"text": "雙管"
+			},
+			{
+				"type": "Energy Retention",
+				"text": "能量保留"
+			},
+			{
+				"type": "Excise",
+				"text": "切除"
+			},
+			{
+				"type": "Execrate",
+				"text": "咒怨"
+			},
+			{
+				"type": "Expanse",
+				"text": "廣闊區域"
+			},
+			{
+				"type": "Extraction",
+				"text": "提取"
+			},
+			{
+				"type": "Ferocity",
+				"text": "狂暴"
+			},
+			{
+				"type": "Focused Curse",
+				"text": "專注詛咒"
+			},
+			{
+				"type": "Fresh Clip",
+				"text": "全新彈夾"
+			},
+			{
+				"type": "Glacier",
+				"text": "冰河"
+			},
+			{
+				"type": "Heft",
+				"text": "分量"
+			},
+			{
+				"type": "Hinder",
+				"text": "阻礙"
+			},
+			{
+				"type": "Holy Descent",
+				"text": "神聖血統"
+			},
+			{
+				"type": "Icicle",
+				"text": "冰柱"
+			},
+			{
+				"type": "Impetus",
+				"text": "動力"
+			},
+			{
+				"type": "Innervate",
+				"text": "亢奮"
+			},
+			{
+				"type": "Intense Agony",
+				"text": "劇烈苦痛"
+			},
+			{
+				"type": "Ironwood",
+				"text": "鐵木"
+			},
+			{
+				"type": "Last Gasp",
+				"text": "臨終恐息"
+			},
+			{
+				"type": "Leverage",
+				"text": "槓桿"
+			},
+			{
+				"type": "Long Fuse",
+				"text": "長引線"
+			},
+			{
+				"type": "Minion Instability",
+				"text": "復仇之靈"
+			},
+			{
+				"type": "Minion Pact",
+				"text": "召喚物契約"
+			},
+			{
+				"type": "Nimble Reload",
+				"text": "靈活裝填"
+			},
+			{
+				"type": "Payload",
+				"text": "承載"
+			},
+			{
+				"type": "Potential",
+				"text": "潛力"
+			},
+			{
+				"type": "Practiced Combo",
+				"text": "熟練連擊"
+			},
+			{
+				"type": "Rageforged",
+				"text": "盛怒鍛造"
+			},
+			{
+				"type": "Raging Cry",
+				"text": "憤怒戰吼"
+			},
+			{
+				"type": "Ricochet",
+				"text": "彈射"
+			},
+			{
+				"type": "Ritualistic Curse",
+				"text": "儀式詛咒"
+			},
+			{
+				"type": "Rupture",
+				"text": "殘破"
+			},
+			{
+				"type": "Spell Cascade",
+				"text": "秘能爆發"
+			},
+			{
+				"type": "Stomping Ground",
+				"text": "重踏地面"
+			},
+			{
+				"type": "Strip Away",
+				"text": "剝奪"
+			},
+			{
+				"type": "Swift Affliction",
+				"text": "極速苦痛"
+			},
+			{
+				"type": "Upheaval",
+				"text": "動亂"
+			},
+			{
+				"type": "Wildshards",
+				"text": "野性碎片"
+			}
+		]
+	},
+	{
+		"id": "jewel",
+		"label": "珠寶",
+		"entries": [
+			{
+				"type": "Emerald",
+				"text": "翠綠碧雲"
+			},
+			{
+				"type": "Sapphire",
+				"text": "藍玉"
+			},
+			{
+				"type": "Time-Lost Emerald",
+				"text": "時迭綠寶石"
+			},
+			{
+				"type": "Time-Lost Sapphire",
+				"text": "時迭藍寶石"
+			},
+			{
+				"type": "Time-Lost Ruby",
+				"text": "時迭紅寶石"
+			},
+			{
+				"type": "Ruby",
+				"text": "紅玉"
+			}
+		]
+	},
+	{
+		"id": "map",
+		"label": "地圖",
+		"entries": [
+			{
+				"type": "Expedition Logbook",
+				"text": "探險日誌"
+			},
+			{
+				"type": "Waystone (Tier 1)",
+				"text": "地圖鑰匙（階級 1）"
+			},
+			{
+				"type": "Waystone (Tier 10)",
+				"text": "地圖鑰匙（階級 10）"
+			},
+			{
+				"type": "Waystone (Tier 11)",
+				"text": "地圖鑰匙（階級 11）"
+			},
+			{
+				"type": "Waystone (Tier 12)",
+				"text": "地圖鑰匙（階級 12）"
+			},
+			{
+				"type": "Waystone (Tier 13)",
+				"text": "地圖鑰匙（階級 13）"
+			},
+			{
+				"type": "Waystone (Tier 14)",
+				"text": "地圖鑰匙（階級 14）"
+			},
+			{
+				"type": "Waystone (Tier 15)",
+				"text": "地圖鑰匙（階級 15）"
+			},
+			{
+				"type": "Waystone (Tier 2)",
+				"text": "地圖鑰匙（階級 2）"
+			},
+			{
+				"type": "Waystone (Tier 3)",
+				"text": "地圖鑰匙（階級 3）"
+			},
+			{
+				"type": "Waystone (Tier 4)",
+				"text": "地圖鑰匙（階級 4）"
+			},
+			{
+				"type": "Waystone (Tier 5)",
+				"text": "地圖鑰匙（階級 5）"
+			},
+			{
+				"type": "Waystone (Tier 6)",
+				"text": "地圖鑰匙（階級 6）"
+			},
+			{
+				"type": "Waystone (Tier 7)",
+				"text": "地圖鑰匙（階級 7）"
+			},
+			{
+				"type": "Waystone (Tier 8)",
+				"text": "地圖鑰匙（階級 8）"
+			},
+			{
+				"type": "Waystone (Tier 9)",
+				"text": "地圖鑰匙（階級 9）"
+			},
+			{
+				"type": "Test of Will Barya",
+				"text": "意志的測試代幣"
+			},
+			{
+				"type": "Djinn Barya",
+				"text": "巨靈之幣"
+			},
+			{
+				"type": "Breach Precursor Tablet",
+				"text": "裂痕碑牌"
+			},
+			{
+				"type": "Delirium Precursor Tablet",
+				"text": "譫妄碑牌"
+			},
+			{
+				"type": "Expedition Precursor Tablet",
+				"text": "探險碑牌"
+			},
+			{
+				"type": "Precursor Tablet",
+				"text": "先行者碑牌"
+			},
+			{
+				"type": "Ritual Precursor Tablet",
+				"text": "祭祀碑牌"
+			},
+			{
+				"type": "Inscribed Ultimatum",
+				"text": "最後通牒雕刻最後通牒雕刻最後通牒雕刻"
+			}
+		]
+	},
+	{
+		"id": "weapon",
+		"label": "武器",
+		"entries": [
+			{
+				"type": "Wooden Club",
+				"text": "木製棍棒"
+			},
+			{
+				"type": "Smithing Hammer",
+				"text": "鍛造錘"
+			},
+			{
+				"type": "Advanced Smithing Hammer",
+				"text": "進階鍛造錘"
+			},
+			{
+				"type": "Slim Mace",
+				"text": "纖細之錘"
+			},
+			{
+				"type": "Advanced Slim Mace",
+				"text": "進階纖細之錘"
+			},
+			{
+				"type": "Expert Slim Mace",
+				"text": "專家纖細之錘"
+			},
+			{
+				"type": "Spiked Club",
+				"text": "鈍釘木棒"
+			},
+			{
+				"type": "Warpick",
+				"text": "戰鎬"
+			},
+			{
+				"type": "Advanced Warpick",
+				"text": "進階戰鎬"
+			},
+			{
+				"type": "Plated Mace",
+				"text": "華麗之錘"
+			},
+			{
+				"type": "Advanced Plated Mace",
+				"text": "進階華麗之錘"
+			},
+			{
+				"type": "Expert Plated Mace",
+				"text": "專家華麗之錘"
+			},
+			{
+				"type": "Brigand Mace",
+				"text": "強盜之錘"
+			},
+			{
+				"type": "Advanced Brigand Mace",
+				"text": "進階強盜之錘"
+			},
+			{
+				"type": "Construct Hammer",
+				"text": "建造錘"
+			},
+			{
+				"type": "Advanced Construct Hammer",
+				"text": "進階建造錘"
+			},
+			{
+				"type": "Expert Construct Hammer",
+				"text": "專家建造錘"
+			},
+			{
+				"type": "Rattling Sceptre",
+				"text": "雜響權杖"
+			},
+			{
+				"type": "Stoic Sceptre",
+				"text": "魔道權杖"
+			},
+			{
+				"type": "Omen Sceptre",
+				"text": "徵兆權杖"
+			},
+			{
+				"type": "Shrine Sceptre",
+				"text": "神殿權杖神殿權杖神殿權杖"
+			},
+			{
+				"type": "Withered Wand",
+				"text": "凋零法杖"
+			},
+			{
+				"type": "Bone Wand",
+				"text": "骸骨法杖"
+			},
+			{
+				"type": "Attuned Wand",
+				"text": "調和法杖"
+			},
+			{
+				"type": "Siphoning Wand",
+				"text": "虹吸法杖"
+			},
+			{
+				"type": "Volatile Wand",
+				"text": "失衡法杖"
+			},
+			{
+				"type": "Crude Bow",
+				"text": "粗製弓"
+			},
+			{
+				"type": "Shortbow",
+				"text": "短弓"
+			},
+			{
+				"type": "Advanced Shortbow",
+				"text": "進階短弓"
+			},
+			{
+				"type": "Expert Shortbow",
+				"text": "專家短弓"
+			},
+			{
+				"type": "Warden Bow",
+				"text": "守護者之弓"
+			},
+			{
+				"type": "Advanced Warden Bow",
+				"text": "進階守護者之弓"
+			},
+			{
+				"type": "Expert Warden Bow",
+				"text": "專家守護者之弓"
+			},
+			{
+				"type": "Recurve Bow",
+				"text": "反曲弓"
+			},
+			{
+				"type": "Composite Bow",
+				"text": "合成弓"
+			},
+			{
+				"type": "Advanced Composite Bow",
+				"text": "進階合成弓"
+			},
+			{
+				"type": "Expert Composite Bow",
+				"text": "專家合成弓"
+			},
+			{
+				"type": "Dualstring Bow",
+				"text": "雙弦弓"
+			},
+			{
+				"type": "Advanced Dualstring Bow",
+				"text": "進階雙弦弓"
+			},
+			{
+				"type": "Expert Dualstring Bow",
+				"text": "專家雙弦弓"
+			},
+			{
+				"type": "Cultist Bow",
+				"text": "教徒之弓"
+			},
+			{
+				"type": "Advanced Cultist Bow",
+				"text": "進階教徒之弓"
+			},
+			{
+				"type": "Zealot Bow",
+				"text": "狂熱者之弓"
+			},
+			{
+				"type": "Advanced Zealot Bow",
+				"text": "進階狂熱者之弓"
+			},
+			{
+				"type": "Expert Zealot Bow",
+				"text": "專家狂熱者之弓"
+			},
+			{
+				"type": "Makeshift Crossbow",
+				"text": "臨時十字弓"
+			},
+			{
+				"type": "Tense Crossbow",
+				"text": "緊繃十字弓"
+			},
+			{
+				"type": "Advanced Tense Crossbow",
+				"text": "進階緊緻十字弓"
+			},
+			{
+				"type": "Sturdy Crossbow",
+				"text": "堅固十字弓"
+			},
+			{
+				"type": "Advanced Sturdy Crossbow",
+				"text": "進階堅固十字弓"
+			},
+			{
+				"type": "Expert Sturdy Crossbow",
+				"text": "專家堅固十字弓"
+			},
+			{
+				"type": "Varnished Crossbow",
+				"text": "亮漆十字弓"
+			},
+			{
+				"type": "Advanced Varnished Crossbow",
+				"text": "進階亮漆十字弓"
+			},
+			{
+				"type": "Expert Varnished Crossbow",
+				"text": "專家亮漆十字弓"
+			},
+			{
+				"type": "Dyad Crossbow",
+				"text": "雙生十字弓"
+			},
+			{
+				"type": "Advanced Dyad Crossbow",
+				"text": "進階成對十字弓"
+			},
+			{
+				"type": "Expert Dyad Crossbow",
+				"text": "專家成對十字弓"
+			},
+			{
+				"type": "Alloy Crossbow",
+				"text": "合金十字弓"
+			},
+			{
+				"type": "Bombard Crossbow",
+				"text": "轟擊十字弓"
+			},
+			{
+				"type": "Advanced Bombard Crossbow",
+				"text": "進階轟炸十字弓"
+			},
+			{
+				"type": "Construct Crossbow",
+				"text": "絕命十字弓"
+			},
+			{
+				"type": "Advanced Forlorn Crossbow",
+				"text": "進階絕命十字弓"
+			},
+			{
+				"type": "Wrapped Quarterstaff",
+				"text": "纏繞細杖"
+			},
+			{
+				"type": "Long Quarterstaff",
+				"text": "加長細杖"
+			},
+			{
+				"type": "Advanced Long Quarterstaff",
+				"text": "進階加長細杖"
+			},
+			{
+				"type": "Expert Long Quarterstaff",
+				"text": "專家加長細杖"
+			},
+			{
+				"type": "Gothic Quarterstaff",
+				"text": "歌德細杖"
+			},
+			{
+				"type": "Advanced Gothic Quarterstaff",
+				"text": "進階歌德細杖"
+			},
+			{
+				"type": "Expert Gothic Quarterstaff",
+				"text": "專家歌德細杖"
+			},
+			{
+				"type": "Crackling Quarterstaff",
+				"text": "裂紋細杖"
+			},
+			{
+				"type": "Advanced Crackling Quarterstaff",
+				"text": "進階裂紋細杖"
+			},
+			{
+				"type": "Crescent Quarterstaff",
+				"text": "新月細杖"
+			},
+			{
+				"type": "Advanced Crescent Quarterstaff",
+				"text": "進階新月細杖"
+			},
+			{
+				"type": "Expert Crescent Quarterstaff",
+				"text": "專家新月細杖"
+			},
+			{
+				"type": "Steelpoint Quarterstaff",
+				"text": "鋼尖細杖"
+			},
+			{
+				"type": "Slicing Quarterstaff",
+				"text": "斬割細杖"
+			},
+			{
+				"type": "Advanced Slicing Quarterstaff",
+				"text": "進階斬割細杖"
+			},
+			{
+				"type": "Barrier Quarterstaff",
+				"text": "屏障細杖"
+			},
+			{
+				"type": "Advanced Barrier Quarterstaff",
+				"text": "進階屏障細杖"
+			},
+			{
+				"type": "Ashen Staff",
+				"text": "灰燼長杖"
+			},
+			{
+				"type": "Gelid Staff",
+				"text": "極寒長杖"
+			},
+			{
+				"type": "Voltaic Staff",
+				"text": "電流長杖"
+			},
+			{
+				"type": "Pyrophyte Staff",
+				"text": "炎植長杖"
+			},
+			{
+				"type": "Chiming Staff",
+				"text": "鳴響長杖"
+			},
+			{
+				"type": "Felled Greatclub",
+				"text": "墮落巨棍棒"
+			},
+			{
+				"type": "Oak Greathammer",
+				"text": "橡木巨錘"
+			},
+			{
+				"type": "Advanced Oak Greathammer",
+				"text": "進階橡木巨錘"
+			},
+			{
+				"type": "Expert Oak Greathammer",
+				"text": "專家橡木巨錘"
+			},
+			{
+				"type": "Forge Maul",
+				"text": "鍛造重錘"
+			},
+			{
+				"type": "Advanced Forge Maul",
+				"text": "進階鍛造重錘"
+			},
+			{
+				"type": "Expert Forge Maul",
+				"text": "專家鍛造重錘"
+			},
+			{
+				"type": "Studded Greatclub",
+				"text": "鑲釘巨棍棒"
+			},
+			{
+				"type": "Cultist Greathammer",
+				"text": "教徒巨錘"
+			},
+			{
+				"type": "Advanced Cultist Greathammer",
+				"text": "進階教徒巨錘"
+			},
+			{
+				"type": "Temple Maul",
+				"text": "神殿重錘"
+			},
+			{
+				"type": "Advanced Temple Maul",
+				"text": "進階神殿重錘"
+			},
+			{
+				"type": "Expert Temple Maul",
+				"text": "專家神殿重錘"
+			},
+			{
+				"type": "Leaden Greathammer",
+				"text": "麻木巨錘"
+			},
+			{
+				"type": "Advanced Leaden Greathammer",
+				"text": "進階麻木巨錘"
+			},
+			{
+				"type": "Crumbling Maul",
+				"text": "崩毀重錘"
+			},
+			{
+				"type": "Advanced Crumbling Maul",
+				"text": "進階崩毀重錘"
+			},
+			{
+				"type": "Studded Greatclub",
+				"text": "腦亂者 鑲釘巨棍棒",
+				"name": "Brain Rattler",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wooden Club",
+				"text": "布林漢的印記 木製棍棒",
+				"name": "Brynhand's Mark",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Leaden Greathammer",
+				"text": "忠誠之錘 麻木巨錘",
+				"name": "Chober Chaber",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Dualstring Bow",
+				"text": "冥使之琴 雙弦弓",
+				"name": "Death's Harp",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Ashen Staff",
+				"text": "暗暮守夜 灰燼長杖",
+				"name": "Dusk Vigil",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Voltaic Staff",
+				"text": "地縛者 電流長杖",
+				"name": "Earthbound",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Volatile Wand",
+				"text": "艾尼尊的衝鋒 失衡法杖",
+				"name": "Enezun's Charge",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Omen Sceptre",
+				"text": "力量水晶塔 徵兆權杖",
+				"name": "Font of Power",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Slim Mace",
+				"text": "霜息 纖細之錘",
+				"name": "Frostbreath",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Shrine Sceptre",
+				"text": "引導之掌 神殿權杖神殿權杖神殿權杖",
+				"name": "Guiding Palm",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Felled Greatclub",
+				"text": "獵豬 墮落巨棍棒",
+				"name": "Hoghunt",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Oak Greathammer",
+				"text": "雷姆諾的奪命樂具 橡木巨錘",
+				"name": "Hrimnor's Hymn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Attuned Wand",
+				"text": "生機之記 調和法杖",
+				"name": "Lifesprig",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crescent Quarterstaff",
+				"text": "摩蹉 新月細杖",
+				"name": "Matsya",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Makeshift Crossbow",
+				"text": "迷霧低語者 臨時十字弓",
+				"name": "Mist Whisper",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Steelpoint Quarterstaff",
+				"text": "納齊爾的審判 鋼尖細杖",
+				"name": "Nazir's Judgement",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Long Quarterstaff",
+				"text": "囚神杵 加長細杖",
+				"name": "Pillar of the Caged God",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crumbling Maul",
+				"text": "重擊之錘 崩毀重錘",
+				"name": "Quecholli",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Shortbow",
+				"text": "驟雨之弦 短弓",
+				"name": "Quill Rain",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Tense Crossbow",
+				"text": "壁壘猛禽 緊繃十字弓",
+				"name": "Rampart Raptor",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Bone Wand",
+				"text": "血色聖者 骸骨法杖",
+				"name": "Sanguine Diviner",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Plated Mace",
+				"text": "見證群星 華麗之錘",
+				"name": "Seeing Stars",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Recurve Bow",
+				"text": "裂心 反曲弓",
+				"name": "Splinterheart",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gelid Staff",
+				"text": "塔林的顫慄之語 極寒長杖",
+				"name": "Taryn's Shiver",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Wrapped Quarterstaff",
+				"text": "血棘 纏繞細杖",
+				"name": "The Blood Thorn",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Rattling Sceptre",
+				"text": "黑暗玷汙者 雜響權杖",
+				"name": "The Dark Defiler",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Pyrophyte Staff",
+				"text": "熾炎之使 炎植長杖",
+				"name": "The Searing Touch",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Gothic Quarterstaff",
+				"text": "哨兵 歌德細杖",
+				"name": "The Sentry",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Spiked Club",
+				"text": "壕溝之音 鈍釘木棒",
+				"name": "Trenchtimbre",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Forge Maul",
+				"text": "崔非那 鍛造重錘",
+				"name": "Trephina",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Crude Bow",
+				"text": "鰥寡之托 粗製弓",
+				"name": "Widowhail",
+				"flags": {
+					"unique": true
+				}
+			},
+			{
+				"type": "Smithing Hammer",
+				"text": "威倫德的木樁 鍛造錘",
+				"name": "Wylund's Stake",
+				"flags": {
+					"unique": true
+				}
+			}
+		]
+	},
+	{
+		"id": "sanctum",
+		"label": "聖域研究",
+		"entries": [
+			{
+				"type": "Urn Relic",
+				"text": "古甕聖物"
+			},
+			{
+				"type": "Amphora Relic",
+				"text": "陶罐聖物"
+			},
+			{
+				"type": "Vase Relic",
+				"text": "器皿聖物"
+			},
+			{
+				"type": "Seal Relic",
+				"text": "草紙聖物"
+			},
+			{
+				"type": "Tapestry Relic",
+				"text": "聖經聖物"
+			},
+			{
+				"type": "Incense Relic",
+				"text": "香爐聖物"
+			}
+		]
+	}
+]
