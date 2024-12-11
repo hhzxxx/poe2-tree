@@ -1,0 +1,30 @@
+[
+	{
+		"id": "永久",
+		"realm": "pc",
+		"old": false,
+		"leagueType": 1,
+		"plat": "tx"
+	},
+	{
+		"id": "S26赛季",
+		"realm": "pc",
+		"old": false,
+		"leagueType": 2,
+		"plat": "tx"
+	},
+	{
+		"id": "S27季前赛",
+		"realm": "pc",
+		"old": false,
+		"leagueType": 3,
+		"plat": "tx"
+	},
+	{
+		"id": "Standard",
+		"realm": "pc",
+		"old": false,
+		"leagueType": 1,
+		"plat": "gjf2"
+	}
+]
